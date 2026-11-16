@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+- CabinVolt data is a static JSON registry (src/data) evaluated client-side by src/lib/logic.ts; keep verdict logic in that one engine so every page agrees.

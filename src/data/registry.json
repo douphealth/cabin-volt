@@ -1,0 +1,1090 @@
+{
+  "edition": "2026-11-01",
+  "coverageNote": "Curated international regulator/manufacturer notices; official US CPSC on-demand lookup is available only when the Pages Worker reaches the upstream service. Airline policies are dated editorial records, not a live global feed. No match is not clearance.",
+  "sources": {
+    "icao": {
+      "name": "ICAO — power-bank rule effective 27 March 2026",
+      "url": "https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation",
+      "date": "2026-03-27",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "faa": {
+      "name": "FAA — PackSafe lithium batteries",
+      "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries",
+      "date": null,
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "cpsc_anker_2025": {
+      "name": "US CPSC — Anker A1257 / A1647 / A1652 / A1681 / A1689",
+      "url": "https://www.cpsc.gov/Recalls/2025/Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations-1",
+      "date": "2025-09-18",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "anker_2025": {
+      "name": "Anker — 2025 recall serial-number check",
+      "url": "https://www.anker.com/rc2506",
+      "date": null,
+      "type": "manufacturer",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "cpsc_anker_1263": {
+      "name": "US CPSC — Anker PowerCore 10000 A1263",
+      "url": "https://www.cpsc.gov/Recalls/2025/More-than-One-Million-Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations",
+      "date": "2025-06-12",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC model A1263 recall page and affected-serial guidance inspected directly"
+    },
+    "cpsc_anker_2024": {
+      "name": "US CPSC — Anker A1642 / A1647 / A1652",
+      "url": "https://www.cpsc.gov/Recalls/2025/Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations",
+      "date": "2024-10-17",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC A1642/A1647/A1652 notice inspected directly"
+    },
+    "cpsc_iniu": {
+      "name": "US CPSC — INIU BI-B41 serial prefixes",
+      "url": "https://www.cpsc.gov/Recalls/2026/INIU-Recalls-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-on-Amazon",
+      "date": "2025-12-05",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC INIU BI-B41 model and eligible prefix evidence inspected directly"
+    },
+    "cpsc_belkin": {
+      "name": "US CPSC — Belkin BPB002 / PB0003",
+      "url": "https://www.cpsc.gov/Recalls/2026/Belkin-Recalls-Portable-Power-Banks-and-Wireless-Charging-Stands-Due-to-Fire-and-Burn-Hazards",
+      "date": "2025-11-13",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "cpsc_newdery": {
+      "name": "US CPSC — NEWDERY ZHX-PB22",
+      "url": "https://www.cpsc.gov/Recalls/2026/NEWDERY-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Risk-of-Serious-Injury-Sold-on-Amazon",
+      "date": "2026-09-24",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC NEWDERY ZHX-PB22 recall page inspected directly"
+    },
+    "cpsc_casely": {
+      "name": "US CPSC — Casely E33A",
+      "url": "https://www.cpsc.gov/Recalls/2026/Casely-Reannounces-Recall-of-Wireless-Portable-Power-Banks-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-One-Fatality-Reported-After-2025-Recall",
+      "date": "2026-04-16",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC Casely E33A model and recall details inspected directly"
+    },
+    "cpsc_charmast": {
+      "name": "US CPSC — Charmast W1056",
+      "url": "https://www.cpsc.gov/Recalls/2025/Charmast-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Sold-by-Charmast-Exclusively-on-Amazon-com",
+      "date": "2024-12-19",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC Charmast W1056 notice inspected directly"
+    },
+    "cpsc_poppy": {
+      "name": "US CPSC — XO Poppy PYPBK5M",
+      "url": "https://www.cpsc.gov/Recalls/2026/Truststone-Group-Recalls-XO-Poppy-Power-Trip-Magnetic-Wireless-Power-Banks-Due-to-Fire-and-Burn-Hazards-Sold-Exclusively-at-TJX-and-Marshalls-Stores",
+      "date": "2026-09-03",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "CPSC XO Poppy PYPBK5M recall inspected directly"
+    },
+    "cpsc_haiara": {
+      "name": "US CPSC — HAIARA W5 PRO (no date code)",
+      "url": "https://www.cpsc.gov/Recalls/2027/HAIARA-Power-Banks-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Sold-on-Amazon-com-by-Mitrytech",
+      "date": "2026-10-29",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "xiaomi_recall": {
+      "name": "Xiaomi — PB2030MI recall checker",
+      "url": "https://www.mi.com/global/support/safety-notice/",
+      "date": null,
+      "type": "manufacturer"
+    },
+    "xiaomi_specs": {
+      "name": "Xiaomi Greece — PB2030MI official battery specifications",
+      "url": "https://www.mi.com/gr/product/xiaomi-33w-power-bank-20000mah-integrated-cable/specs/",
+      "date": null,
+      "type": "manufacturer",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "Xiaomi Greece PB2030MI official technical specification inspected directly"
+    },
+    "safetykorea_pantone": {
+      "name": "Safety Korea — PANTONE PBP-100 recall",
+      "url": "https://www.safetykorea.kr/recall/ajax/recallBoard?recallUid=10022115",
+      "date": "2025-12-24",
+      "type": "regulator"
+    },
+    "nepal_mobikins": {
+      "name": "Nepal Airlines — DGCA AIC 14/2026 / MOBIKINS",
+      "url": "https://www.nepalairlines.com.np/notices/restriction-to-carry-mobikins-mk-pb-04-power-bank-in-india-sector",
+      "date": "2026-10-13",
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "Nepal Airlines restriction notice for India sector and model inspected directly"
+    },
+    "mobikins_news": {
+      "name": "The New Indian Express — DGCA ban reporting",
+      "url": "https://www.newindianexpress.com/india/2026/Oct/14/dgca-bans-mobikins-mk-pb-4-power-bank-on-all-flights",
+      "date": "2026-10-14",
+      "type": "news"
+    },
+    "aegean": {
+      "name": "AEGEAN — Dangerous goods / power banks",
+      "url": "https://en.aegeanair.com/travel-info/travelling-with-aegean/baggage/dangerous-goods/",
+      "date": null,
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "ryanair": {
+      "name": "Ryanair — Items permitted on board",
+      "url": "https://help.ryanair.com/hc/en-us/articles/12890774807569-What-items-are-permitted-on-board",
+      "date": null,
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "emirates": {
+      "name": "Emirates — Power bank rules",
+      "url": "https://www.emirates.com/media-centre/emirates-makes-changes-to-safety-rules-for-customer-usage-of-power-banks-onboard/",
+      "date": "2025-09-30",
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "qatar": {
+      "name": "Qatar Airways — Power bank travel alert",
+      "url": "https://www.qatarairways.com/en-ng/travel-alerts.html",
+      "date": "2026-06-20",
+      "type": "airline"
+    },
+    "ba": {
+      "name": "British Airways — Restricted items",
+      "url": "https://www.britishairways.com/content/information/baggage-essentials/liquids-and-restrictions",
+      "date": null,
+      "type": "airline"
+    },
+    "easyjet": {
+      "name": "easyJet — Dangerous goods / power banks",
+      "url": "https://www.easyjet.com/en/help-centre/baggage/dangerous-goods?q=Batteries",
+      "date": null,
+      "type": "airline"
+    },
+    "scoot": {
+      "name": "Scoot — Power bank advisory",
+      "url": "https://www.flyscoot.com/en/advisory/advisory-on-power-bank-usage-onboard",
+      "date": "2026-04-07",
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "Scoot official power bank onboard advisory inspected directly"
+    },
+    "indigo": {
+      "name": "IndiGo — Cabin baggage / power banks",
+      "url": "https://www.goindigo.in/baggage/cabin-baggage.html",
+      "date": null,
+      "type": "airline"
+    },
+    "vietnam": {
+      "name": "Vietnam Airlines — Recalled power banks prohibited",
+      "url": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2026/Recalled-Power-Banks-Prohibited-on-Flights",
+      "date": null,
+      "type": "airline",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "Vietnam Airlines official recalled-bank restriction and PANTONE PBP-100 inspected directly"
+    },
+    "airseoul": {
+      "name": "Air Seoul — Recalled power bank ban",
+      "url": "https://flyairseoul.com/CM/en/noticeContent.do?board_id=notice&seq=11160",
+      "date": "2026-10-03",
+      "type": "airline"
+    },
+    "skyangkor": {
+      "name": "Sky Angkor — Recalled power bank ban",
+      "url": "https://www.skyangkorair.com/en/airport/notice.php?act=view&encData=aWR4PTE2NSZzdGFydD0m",
+      "date": "2026-10-05",
+      "type": "airline"
+    },
+    "uk_belkin": {
+      "name": "UK OPSS — Belkin BPB002 and PB0003 recall",
+      "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-recall-belkin-boostcharge-usb-c-bpb002-and-playa-usb-c-pb0003-power-banks-2511-0225",
+      "date": "2025-11-26",
+      "type": "regulator"
+    },
+    "airindia_mobikins": {
+      "name": "Air India — 15 October 2026 travel restriction",
+      "url": "https://www.airindia.com/in/en/news-update.html",
+      "date": "2026-10-15",
+      "type": "airline"
+    },
+    "uk_caa": {
+      "name": "UK Civil Aviation Authority — 27 March 2026 power-bank provisions",
+      "url": "https://www.caa.co.uk/commercial-industry/airlines/dangerous-goods/changes-to-rules-on-the-carriage-of-lithium-cellsbatteries-and-power-banks/",
+      "date": "2026-03-27",
+      "type": "regulator",
+      "independentlyReviewed": "2026-10-30",
+      "reviewMethod": "official page content reviewed, not live monitoring"
+    },
+    "lufthansa26": {
+      "name": "Lufthansa — Power banks (portable chargers)",
+      "url": "https://www.lufthansa.com/gr/en/prepare-for-your-trip/baggage/electronic-devices-and-batteries",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "klm26": {
+      "name": "KLM — Restricted items in hand baggage",
+      "url": "https://www.klm.com/information/baggage/restricted-items-hand-baggage",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "sia26": {
+      "name": "Singapore Airlines — Power banks advisory",
+      "url": "https://www.singaporeair.com/en_UK/ie/faq/onboard-experience/safety-regulations/",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01",
+      "date": "2026-04-06"
+    },
+    "qantas26": {
+      "name": "Qantas — Spare batteries and power banks",
+      "url": "https://www.qantas.com/en-us/baggage/dangerous-goods/spare-batteries-and-powerbanks",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "etihad26": {
+      "name": "Etihad — Power bank restrictions",
+      "url": "https://www.etihad.com/en-gr/help/baggage-information/prohibited-items",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "wizz26": {
+      "name": "Wizz Air — Restricted items, lithium batteries",
+      "url": "https://ssr-weu2.wizzair.com/en-gb/help-centre/restricted-items",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "korean26": {
+      "name": "Korean Air — Restricted items and power banks",
+      "url": "https://www.koreanair.com/contents/plan-your-travel/baggage/restricted-item",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "airfrance26": {
+      "name": "Air France — Restricted lithium batteries",
+      "url": "https://russia.airfrance.com/en/information/bagages/popin_produits-interdits-et-reglementes/produits-interdits-et-reglementes-3",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "vueling26": {
+      "name": "Vueling — Items allowed as hand luggage",
+      "url": "https://help.vueling.com/hc/en-gb/articles/20955280277521-Items-allowed-as-hand-luggage",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "delta26": {
+      "name": "Delta Air Lines — Lithium battery restrictions",
+      "url": "https://www.delta.com/content/www/en_US/traveling-with-us/baggage/before-your-trip/restricted-items.html",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "turkish26": {
+      "name": "Turkish Airlines — Travel restrictions",
+      "url": "https://www.turkishairlines.com/en-gb/any-questions/restrictions/",
+      "type": "airline",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "cpsc_api": {
+      "name": "US CPSC — Public recalls API",
+      "url": "https://www.cpsc.gov/Recalls/CPSC-Recalls-Application-Program-Interface-API-Information",
+      "type": "regulator",
+      "independentlyReviewed": "2026-11-01"
+    },
+    "hcdata": {
+      "name": "Health Canada — Recalls and safety alerts open data",
+      "url": "https://recalls-rappels.canada.ca/en",
+      "type": "regulator",
+      "independentlyReviewed": "2026-11-01"
+    }
+  },
+  "models": [
+    {
+      "id": "a1263",
+      "brand": "Anker",
+      "model": "A1263",
+      "name": "PowerCore 10000",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-06-12",
+      "description": "Anker PowerCore 10000 A1263 appears in a US CPSC recall. Check the actual unit and serial against Anker's instructions; model match alone does not confirm which units qualify.",
+      "descriptionEl": "Το Anker PowerCore 10000 A1263 περιλαμβάνεται σε ανάκληση της αμερικανικής CPSC. Ελέγξτε τη συσκευή και τον σειριακό αριθμό μέσω Anker.",
+      "sources": [
+        "cpsc_anker_1263"
+      ],
+      "actionUrl": "https://www.anker.com/product-recalls"
+    },
+    {
+      "id": "a1257",
+      "brand": "Anker",
+      "model": "A1257",
+      "name": "Power Bank 10K, 22.5W",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-09-18",
+      "description": "Included in Anker's 2025 recall. Determine whether your serial number is affected through the manufacturer's official recall form.",
+      "descriptionEl": "Περιλαμβάνεται στην ανάκληση της Anker το 2025. Χρειάζεται επίσημος έλεγχος του σειριακού αριθμού.",
+      "sources": [
+        "cpsc_anker_2025",
+        "anker_2025"
+      ],
+      "actionUrl": "https://www.anker.com/rc2506"
+    },
+    {
+      "id": "a1647",
+      "brand": "Anker",
+      "model": "A1647",
+      "name": "Power Bank 20K, built-in cable",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-09-18",
+      "description": "Appears in both 2024 and 2025 Anker recall notices. Anker says units previously cleared should be checked again against the newer recall.",
+      "descriptionEl": "Εμφανίζεται σε ανακλήσεις της Anker το 2024 και το 2025. Ελέγξτε ξανά τον σειριακό αριθμό στη νεότερη ανάκληση.",
+      "sources": [
+        "cpsc_anker_2024",
+        "cpsc_anker_2025",
+        "anker_2025"
+      ],
+      "actionUrl": "https://www.anker.com/rc2506"
+    },
+    {
+      "id": "a1652",
+      "brand": "Anker",
+      "model": "A1652",
+      "name": "MagGo Power Bank 10K",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-09-18",
+      "description": "Listed in the US CPSC 2025 recall; region and serial-number eligibility may differ. Confirm against Anker's official recall instructions.",
+      "descriptionEl": "Περιλαμβάνεται στην αμερικανική ανάκληση CPSC του 2025. Ελέγξτε περιοχή και σειριακό αριθμό στην Anker.",
+      "sources": [
+        "cpsc_anker_2024",
+        "cpsc_anker_2025",
+        "anker_2025"
+      ],
+      "actionUrl": "https://www.anker.com/rc2506"
+    },
+    {
+      "id": "a1681",
+      "brand": "Anker",
+      "model": "A1681",
+      "name": "Zolo Power Bank 20K, USB-C + Lightning",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-09-18",
+      "description": "Included in Anker's recall of selected power banks. Official serial-number verification is needed.",
+      "descriptionEl": "Περιλαμβάνεται σε ανάκληση της Anker. Απαιτείται επίσημη επαλήθευση σειριακού αριθμού.",
+      "sources": [
+        "cpsc_anker_2025",
+        "anker_2025"
+      ],
+      "actionUrl": "https://www.anker.com/rc2506"
+    },
+    {
+      "id": "a1689",
+      "brand": "Anker",
+      "model": "A1689",
+      "name": "Zolo Power Bank 20K, built-in USB-C",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2025-09-18",
+      "description": "Included in the 2025 Anker recall; the unit's serial number must be checked with the manufacturer.",
+      "descriptionEl": "Περιλαμβάνεται στην ανάκληση Anker 2025. Ελέγξτε τον σειριακό αριθμό της συσκευής.",
+      "sources": [
+        "cpsc_anker_2025",
+        "anker_2025"
+      ],
+      "actionUrl": "https://www.anker.com/rc2506"
+    },
+    {
+      "id": "a1642",
+      "brand": "Anker",
+      "model": "A1642",
+      "name": "334 MagGo Power Bank 10K",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-check",
+      "date": "2024-10-17",
+      "description": "A1642 appears in a 2024 CPSC recall for certain Anker power banks. Confirm that your individual unit is included.",
+      "descriptionEl": "Το A1642 περιλαμβάνεται σε ανακοίνωση ανάκλησης CPSC του 2024. Ελέγξτε εάν αφορά τη συσκευή σας.",
+      "sources": [
+        "cpsc_anker_2024"
+      ],
+      "actionUrl": "https://www.anker.com/product-recalls"
+    },
+    {
+      "id": "bib41",
+      "brand": "INIU",
+      "model": "BI-B41",
+      "name": "10,000mAh portable power bank",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-prefix",
+      "serialPrefixes": [
+        "000G21",
+        "000H21",
+        "000I21",
+        "000L21"
+      ],
+      "date": "2025-12-05",
+      "description": "The US CPSC recall covers only serial numbers starting 000G21, 000H21, 000I21 or 000L21. Other serials are not identified in that specific notice.",
+      "descriptionEl": "Η ανάκληση CPSC αφορά μόνο σειριακούς που αρχίζουν από 000G21, 000H21, 000I21 ή 000L21.",
+      "sources": [
+        "cpsc_iniu"
+      ],
+      "actionUrl": "https://iniushop.com/pages/recall-b41"
+    },
+    {
+      "id": "bpb002",
+      "brand": "Belkin",
+      "model": "BPB002",
+      "name": "BoostCharge USB-C PD Power Bank 20K",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "serial-prefix",
+      "serialPrefixes": [
+        "35S"
+      ],
+      "date": "2025-11-13",
+      "description": "The US CPSC notice includes BPB002 power banks with 14-character serial numbers beginning 35S. UK authorities also published a model-level recall notice; confirm your country and exact unit with Belkin.",
+      "descriptionEl": "Η αμερικανική ανάκληση αφορά BPB002 με σειριακό 14 χαρακτήρων που ξεκινά από 35S. Η βρετανική αρχή δημοσίευσε και ανάκληση σε επίπεδο μοντέλου· επιβεβαίωσε τη χώρα και τη συγκεκριμένη συσκευή.",
+      "sources": [
+        "cpsc_belkin",
+        "uk_belkin"
+      ],
+      "actionUrl": "https://www.belkin.com/BPB002recall",
+      "regionAdvisory": "uk_belkin"
+    },
+    {
+      "id": "pb0003",
+      "brand": "Belkin",
+      "model": "PB0003",
+      "name": "Portable power bank",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "all",
+      "date": "2025-11-13",
+      "description": "The CPSC explicitly states all serial numbers of Belkin model PB0003 are included in this recall.",
+      "descriptionEl": "Η CPSC αναφέρει ότι όλοι οι σειριακοί αριθμοί του Belkin PB0003 καλύπτονται από την ανάκληση.",
+      "sources": [
+        "cpsc_belkin"
+      ],
+      "actionUrl": "https://www.belkin.com/"
+    },
+    {
+      "id": "zhxpb22",
+      "brand": "NEWDERY",
+      "model": "ZHX-PB22",
+      "name": "Power bank with yellow cables",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "all",
+      "date": "2026-09-24",
+      "description": "US CPSC recalled NEWDERY ZHX-PB22 power banks due to fire and burn hazards.",
+      "descriptionEl": "Η CPSC ανακάλεσε το NEWDERY ZHX-PB22 λόγω κινδύνου φωτιάς και εγκαυμάτων.",
+      "sources": [
+        "cpsc_newdery"
+      ],
+      "actionUrl": "https://www.newdery.com/pages/newdery-power-bank-recalls"
+    },
+    {
+      "id": "e33a",
+      "brand": "Casely",
+      "model": "E33A",
+      "name": "Wireless portable power bank",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "all",
+      "date": "2026-04-16",
+      "description": "US CPSC reannounced the Casely E33A recall in April 2026, following an earlier 2025 recall.",
+      "descriptionEl": "Η CPSC επανέλαβε την ανάκληση του Casely E33A τον Απρίλιο 2026.",
+      "sources": [
+        "cpsc_casely"
+      ],
+      "actionUrl": "https://www.cpsc.gov/Recalls/2026/Casely-Reannounces-Recall-of-Wireless-Portable-Power-Banks-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-One-Fatality-Reported-After-2025-Recall"
+    },
+    {
+      "id": "w1056",
+      "brand": "Charmast",
+      "model": "W1056",
+      "name": "Portable power bank",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "seller-us-amazon",
+      "date": "2024-12-19",
+      "description": "Charmast W1056 units purchased via Amazon.com USA were recalled; confirm the sales channel and recall procedure with Charmast.",
+      "descriptionEl": "Ανάκληση Charmast W1056 που πωλήθηκαν μέσω Amazon.com (ΗΠΑ). Επιβεβαιώστε το κανάλι πώλησης και τη διαδικασία ανάκλησης.",
+      "sources": [
+        "cpsc_charmast"
+      ],
+      "actionUrl": "https://www.charmast.com/pages/recall-info-page"
+    },
+    {
+      "id": "pypbk5m",
+      "brand": "XO Poppy",
+      "model": "PYPBK5M",
+      "name": "Power Trip magnetic wireless bank",
+      "aliases": [
+        "PY-PBK5M-CR2",
+        "PY-PBK5M-BW8",
+        "PY-PBK5M-TB2"
+      ],
+      "issue": "recall",
+      "scope": "all",
+      "date": "2026-09-03",
+      "description": "US CPSC recalled the XO Poppy Power Trip magnetic bank, including the documented color/print variations.",
+      "descriptionEl": "Η CPSC ανακάλεσε το XO Poppy Power Trip, συμπεριλαμβανομένων των σχεδίων/χρωμάτων που αναφέρονται.",
+      "sources": [
+        "cpsc_poppy"
+      ],
+      "actionUrl": "https://www.recallrtr.com/xopowerbank"
+    },
+    {
+      "id": "w5pro",
+      "brand": "HAIARA",
+      "model": "W5 PRO",
+      "name": "20W power bank sold by Mitrytech",
+      "aliases": [
+        "W5PRO"
+      ],
+      "issue": "recall",
+      "scope": "no-date-code",
+      "date": "2026-10-29",
+      "description": "The US CPSC notice applies to HAIARA W5 PRO units sold by Mitrytech with NO YYYYMMDD date code printed on the side. Verify both conditions.",
+      "descriptionEl": "Η ανάκληση CPSC αφορά HAIARA W5 PRO από Mitrytech ΧΩΡΙΣ κωδικό ημερομηνίας YYYYMMDD στο πλάι.",
+      "sources": [
+        "cpsc_haiara"
+      ],
+      "actionUrl": "https://www.cpsc.gov/Recalls/2027/HAIARA-Power-Banks-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Fire-and-Burn-Hazards-Sold-on-Amazon-com-by-Mitrytech"
+    },
+    {
+      "id": "pb2030mi",
+      "brand": "Xiaomi",
+      "model": "PB2030MI",
+      "name": "33W Power Bank 20000mAh with cable",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "batch-check",
+      "date": "2025-10-13",
+      "wh": 74,
+      "whNote": "Official Xiaomi rated battery power 74 Wh (7.4 V x 10,000 mAh); do not use the 5 V output capacity for flight Wh.",
+      "whNoteEl": "Η Xiaomi αναφέρει ονομαστική ενέργεια 74 Wh (7,4 V × 10.000 mAh), όχι τη χωρητικότητα εξόδου στα 5 V.",
+      "description": "Xiaomi recalled a limited batch manufactured in August–September 2024. Use Xiaomi's serial-number form to verify your unit. Rated battery energy is 74 Wh.",
+      "descriptionEl": "Η Xiaomi ανακάλεσε περιορισμένη παρτίδα παραγωγής Αυγούστου–Σεπτεμβρίου 2024. Χρειάζεται έλεγχος σειριακού. Ονομαστική ενέργεια 74 Wh.",
+      "sources": [
+        "xiaomi_recall",
+        "xiaomi_specs"
+      ],
+      "actionUrl": "https://www.mi.com/global/support/safety-notice/"
+    },
+    {
+      "id": "pbp100",
+      "brand": "PANTONE",
+      "model": "PBP-100",
+      "name": "Portable power bank",
+      "aliases": [],
+      "issue": "recall",
+      "scope": "manufacture-range",
+      "start": "2025-09",
+      "end": "2025-10",
+      "date": "2025-12-24",
+      "description": "Korean regulator recall applies to units made 1 September–31 October 2025. Air Seoul, Vietnam Airlines and Sky Angkor publish explicit prohibitions referring to this model.",
+      "descriptionEl": "Η κορεατική ανάκληση αφορά παραγωγή 1/9–31/10/2025. Air Seoul, Vietnam Airlines και Sky Angkor δημοσιεύουν ειδική απαγόρευση.",
+      "sources": [
+        "safetykorea_pantone"
+      ],
+      "actionUrl": "https://www.safetykorea.kr/recall/ajax/recallBoard?recallUid=10022115"
+    },
+    {
+      "id": "mkpb04",
+      "brand": "MOBIKINS",
+      "model": "MK-PB-04",
+      "name": "Portable power bank",
+      "aliases": [
+        "MK-PB-4",
+        "MOBIKINS-MK-PB-04"
+      ],
+      "issue": "regulator-ban",
+      "scope": "route-india",
+      "date": "2026-09-29",
+      "description": "India's DGCA Aeronautical Information Circular 14/2026 prohibits this exact model on flights to, from or within India, including cabin, checked baggage and cargo.",
+      "descriptionEl": "Η εγκύκλιος DGCA AIC 14/2026 απαγορεύει αυτό το μοντέλο σε πτήσεις προς, από ή εντός Ινδίας, σε κάθε τύπο αποσκευής.",
+      "sources": [
+        "airindia_mobikins",
+        "nepal_mobikins"
+      ],
+      "actionUrl": "https://www.nepalairlines.com.np/notices/restriction-to-carry-mobikins-mk-pb-04-power-bank-in-india-sector"
+    }
+  ],
+  "airlines": [
+    {
+      "id": "aegean",
+      "name": "AEGEAN / Olympic Air",
+      "short": "AEGEAN",
+      "iata": "A3",
+      "limit": 1,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "aegean",
+      "note": "Only one power bank per passenger, up to 100 Wh. Cabin only; neither charging a device from it nor recharging it is allowed in flight.",
+      "noteEl": "Μόνο ένα power bank ανά επιβάτη έως 100 Wh, μόνο σε χειραποσκευή. Απαγορεύεται η χρήση και η φόρτισή του κατά την πτήση."
+    },
+    {
+      "id": "ryanair",
+      "name": "Ryanair",
+      "short": "Ryanair",
+      "iata": "FR",
+      "limit": 2,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "restricted",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "ryanair",
+      "note": "Power banks up to 100 Wh only, kept under-seat/on-person. Charging devices is permitted except taxi, takeoff and landing, and subject to crew instructions.",
+      "noteEl": "Έως 100 Wh, κάτω από το κάθισμα ή πάνω σας. Η φόρτιση συσκευών επιτρέπεται εκτός τροχοδρόμησης, απογείωσης και προσγείωσης και εφόσον το επιτρέπει το πλήρωμα."
+    },
+    {
+      "id": "emirates",
+      "name": "Emirates",
+      "short": "Emirates",
+      "iata": "EK",
+      "limit": 1,
+      "maxWh": 100,
+      "maxExclusive": true,
+      "large": "no",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "emirates",
+      "note": "One power bank per passenger, strictly under 100 Wh. Capacity rating must be visible; no use or recharging during flight; keep it accessible, not overhead.",
+      "noteEl": "Ένα power bank ανά επιβάτη, αυστηρά κάτω από 100 Wh. Πρέπει να αναγράφεται η χωρητικότητα. Απαγορεύεται η χρήση ή φόρτισή του εν πτήσει."
+    },
+    {
+      "id": "qatar",
+      "name": "Qatar Airways",
+      "short": "Qatar",
+      "iata": "QR",
+      "limit": 2,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "unconfirmed",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "qatar",
+      "note": "Two power banks at most, each up to 100 Wh. Recharging the power bank is prohibited; verify whether using it to charge a device is permitted.",
+      "noteEl": "Έως δύο power banks έως 100 Wh. Η φόρτιση του power bank απαγορεύεται· ζητήστε επιβεβαίωση για φόρτιση άλλων συσκευών."
+    },
+    {
+      "id": "ba",
+      "name": "British Airways",
+      "short": "British Airways",
+      "iata": "BA",
+      "limit": 2,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "unconfirmed",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "ba",
+      "note": "At most two power banks, each no more than 100 Wh, and capacity must be visibly marked. Do not charge the bank from the aircraft seat power supply.",
+      "noteEl": "Έως δύο power banks των 100 Wh το καθένα, με εμφανή ένδειξη χωρητικότητας. Απαγορεύεται η φόρτισή τους από την παροχή του αεροσκάφους."
+    },
+    {
+      "id": "easyjet",
+      "name": "easyJet",
+      "short": "easyJet",
+      "iata": "U2",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "easyjet",
+      "note": "Two power banks at most, each up to 160 Wh. For capacity over 100 Wh, confirm airline approval before travel; power bank use onboard is prohibited.",
+      "noteEl": "Έως δύο power banks των 160 Wh. Για πάνω από 100 Wh επιβεβαιώστε έγκριση πριν από την πτήση. Απαγορεύεται η χρήση onboard."
+    },
+    {
+      "id": "scoot",
+      "name": "Scoot",
+      "short": "Scoot",
+      "iata": "TR",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "scoot",
+      "note": "Two power banks at most. Up to 100 Wh without approval; over 100 through 160 Wh only with carrier approval. Neither use nor charging onboard.",
+      "noteEl": "Έως δύο power banks. Έως 100 Wh χωρίς έγκριση, πάνω από 100 έως 160 Wh με έγκριση. Απαγορεύεται χρήση και φόρτιση onboard."
+    },
+    {
+      "id": "indigo",
+      "name": "IndiGo",
+      "short": "IndiGo",
+      "iata": "6E",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "indigo",
+      "note": "Cabin baggage only, max two power banks. IndiGo says each must not exceed 160 Wh; confirm approval for units over 100 Wh before departure.",
+      "noteEl": "Μόνο χειραποσκευή, έως δύο power banks. Η IndiGo δημοσιεύει όριο 160 Wh· για πάνω από 100 Wh ζητήστε προέγκριση."
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam Airlines",
+      "short": "Vietnam Airlines",
+      "iata": "VN",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "recall-only",
+      "banRecalled": true,
+      "bannedModels": [
+        "pbp100"
+      ],
+      "source": "vietnam",
+      "note": "Explicitly prohibits recalled power banks in both cabin and checked bags, including PANTONE PBP-100. A verified capacity/quantity policy was not found for this snapshot.",
+      "noteEl": "Απαγορεύει ανακληθέντα power banks σε κάθε αποσκευή, συμπεριλαμβανομένου του PANTONE PBP-100. Δεν έχει επιβεβαιωθεί εδώ όριο πλήθους/Wh."
+    },
+    {
+      "id": "airseoul",
+      "name": "Air Seoul",
+      "short": "Air Seoul",
+      "iata": "RS",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "recall-only",
+      "banRecalled": true,
+      "bannedModels": [
+        "pbp100"
+      ],
+      "source": "airseoul",
+      "note": "Prohibits recalled power banks for carriage; explicitly names PANTONE PBP-100. General capacity/count rules need direct airline confirmation.",
+      "noteEl": "Απαγορεύει τη μεταφορά ανακληθέντων power banks, ειδικά PANTONE PBP-100. Τα γενικά όρια χρειάζονται επιβεβαίωση από την εταιρεία."
+    },
+    {
+      "id": "skyangkor",
+      "name": "Sky Angkor Airlines",
+      "short": "Sky Angkor",
+      "iata": "ZA",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "recall-only",
+      "banRecalled": true,
+      "bannedModels": [
+        "pbp100"
+      ],
+      "source": "skyangkor",
+      "note": "Prohibits recalled power banks, naming PANTONE PBP-100. General power bank size/quantity policy is not independently recorded here.",
+      "noteEl": "Απαγορεύει ανακληθέντα power banks, ονομαστικά PANTONE PBP-100. Δεν έχει επαληθευτεί εδώ γενικό όριο Wh/τεμαχίων."
+    },
+    {
+      "id": "lufthansa",
+      "name": "Lufthansa",
+      "short": "Lufthansa",
+      "iata": "LH",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "lufthansa26",
+      "note": "Up to two power banks. Up to 100 Wh normally; over 100 to 160 Wh requires airline approval. No use or charging on board; keep accessible.",
+      "noteEl": "Έως δύο power banks. Μέχρι 100 Wh κανονικά· πάνω από 100 έως 160 Wh απαιτείται έγκριση. Απαγορεύεται χρήση ή φόρτιση εν πτήσει."
+    },
+    {
+      "id": "klm",
+      "name": "KLM",
+      "short": "KLM",
+      "iata": "KL",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "klm26",
+      "note": "Up to two power banks in cabin baggage. Above 100 through 160 Wh requires airline approval; no onboard use or charging, and do not use overhead bins.",
+      "noteEl": "Έως δύο power banks στην καμπίνα. Πάνω από 100 έως 160 Wh με έγκριση. Απαγορεύεται χρήση και φόρτιση εν πτήσει ή αποθήκευση στο ντουλάπι."
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore Airlines",
+      "short": "Singapore Airlines",
+      "iata": "SQ",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "sia26",
+      "note": "Up to two power banks. Up to 100 Wh without approval; above 100 through 160 Wh requires approval. No onboard use or charging.",
+      "noteEl": "Έως δύο power banks: 100 Wh χωρίς έγκριση· πάνω από 100 έως 160 Wh μόνο με έγκριση. Όχι χρήση ή φόρτιση εν πτήσει."
+    },
+    {
+      "id": "qantas",
+      "name": "Qantas",
+      "short": "Qantas",
+      "iata": "QF",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "qantas26",
+      "note": "Two power banks maximum, each no more than 160 Wh, carry-on only. Do not use or charge on board. Verify additional approval requirements for over 100 Wh directly.",
+      "noteEl": "Έως δύο power banks των 160 Wh, μόνο στην καμπίνα. Όχι χρήση/φόρτιση. Επιβεβαιώστε έγκριση άνω των 100 Wh."
+    },
+    {
+      "id": "etihad",
+      "name": "Etihad Airways",
+      "short": "Etihad Airways",
+      "iata": "EY",
+      "limit": 1,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "etihad26",
+      "note": "One power bank only, visibly labelled 100 Wh or below. No use or charging during flight, cabin only.",
+      "noteEl": "Μόνο ένα power bank έως και 100 Wh, με εμφανή σήμανση. Απαγορεύεται χρήση ή φόρτιση εν πτήσει."
+    },
+    {
+      "id": "wizz",
+      "name": "Wizz Air",
+      "short": "Wizz Air",
+      "iata": "W6",
+      "limit": 1,
+      "maxWh": 100,
+      "maxExclusive": false,
+      "large": "no",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "full",
+      "source": "wizz26",
+      "note": "One power bank maximum, at most 100 Wh with clear label, no use on board and no checked-baggage carriage.",
+      "noteEl": "Μόνο ένα power bank, το πολύ 100 Wh με σαφή ένδειξη. Όχι χρήση εν πτήσει και όχι σε παραδοτέα αποσκευή."
+    },
+    {
+      "id": "korean",
+      "name": "Korean Air",
+      "short": "Korean Air",
+      "iata": "KE",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "no",
+      "recharge": "no",
+      "coverage": "partial",
+      "source": "korean26",
+      "note": "Two power banks max; 100–160 Wh requires approval. Carry-on only, protect terminals, and keep accessible. Verify route departure-specific restrictions.",
+      "noteEl": "Έως δύο power banks· 100–160 Wh μόνο με έγκριση. Μόνο χειραποσκευή. Ελέγξτε κανόνες αεροδρομίου αναχώρησης."
+    },
+    {
+      "id": "airfrance",
+      "name": "Air France",
+      "short": "Air France",
+      "iata": "AF",
+      "limit": 2,
+      "maxWh": 160,
+      "maxExclusive": false,
+      "large": "approval",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "partial",
+      "source": "airfrance26",
+      "note": "Power banks 100–160 Wh need prior approval and must remain accessible in cabin. Exact use restrictions/quantity for this route require airline confirmation.",
+      "noteEl": "Power banks 100–160 Wh απαιτούν προέγκριση και πρέπει να είναι προσιτά στην καμπίνα. Επιβεβαιώστε τους ειδικούς περιορισμούς."
+    },
+    {
+      "id": "vueling",
+      "name": "Vueling",
+      "short": "Vueling",
+      "iata": "VY",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "link-only",
+      "source": "vueling26",
+      "note": "Official Vueling page allows a power bank in cabin baggage and prohibits charging batteries on board; detailed Wh and count limits not confirmed here.",
+      "noteEl": "Η Vueling επιτρέπει power bank στην καμπίνα και απαγορεύει φόρτιση μπαταριών onboard. Τα όρια Wh/τεμαχίων δεν έχουν επιβεβαιωθεί."
+    },
+    {
+      "id": "delta",
+      "name": "Delta Air Lines",
+      "short": "Delta Air Lines",
+      "iata": "DL",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "link-only",
+      "source": "delta26",
+      "note": "Official Delta guidance restricts spare lithium batteries to carry-on and bans damaged or recalled batteries. Exact 2026 power-bank quantities not independently verified here.",
+      "noteEl": "Οι εφεδρικές μπαταρίες επιτρέπονται μόνο στην καμπίνα· απαγορεύονται ανακληθείσες. Δεν έχει επιβεβαιωθεί εδώ αριθμητικό όριο."
+    },
+    {
+      "id": "turkish",
+      "name": "Turkish Airlines",
+      "short": "Turkish Airlines",
+      "iata": "TK",
+      "limit": null,
+      "maxWh": null,
+      "maxExclusive": false,
+      "large": "unknown",
+      "use": "unconfirmed",
+      "recharge": "unconfirmed",
+      "coverage": "link-only",
+      "source": "turkish26",
+      "note": "Official Turkish Airlines restrictions page covers lithium batteries. Confirm exact power-bank limits directly before travel; this record does not certify them.",
+      "noteEl": "Η επίσημη σελίδα περιλαμβάνει μπαταρίες λιθίου. Επιβεβαιώστε τα ειδικά όρια power bank απευθείας από την εταιρεία."
+    }
+  ],
+  "updates": [
+    {
+      "date": "2026-10-29",
+      "title": "HAIARA W5 PRO recall published",
+      "titleEl": "Δημοσιεύθηκε ανάκληση HAIARA W5 PRO",
+      "description": "CPSC notice identifies affected units without a date code, sold by Mitrytech.",
+      "descriptionEl": "Η CPSC προσδιορίζει συσκευές χωρίς κωδικό ημερομηνίας από Mitrytech.",
+      "source": "cpsc_haiara",
+      "model": "w5pro"
+    },
+    {
+      "date": "2026-10-14",
+      "title": "India flight restriction: MOBIKINS MK-PB-04",
+      "titleEl": "Απαγόρευση Ινδίας: MOBIKINS MK-PB-04",
+      "description": "DGCA AIC 14/2026 prohibits this specific model on India routes; notice reported by airline and press.",
+      "descriptionEl": "Η εγκύκλιος DGCA AIC 14/2026 απαγορεύει το μοντέλο σε δρομολόγια Ινδίας.",
+      "source": "airindia_mobikins",
+      "model": "mkpb04"
+    },
+    {
+      "date": "2026-10-05",
+      "title": "Sky Angkor names recalled PANTONE PBP-100",
+      "titleEl": "Sky Angkor: απαγόρευση PANTONE PBP-100",
+      "description": "Carrier warns that recalled power banks cannot travel in cabin or hold.",
+      "descriptionEl": "Η εταιρεία απαγορεύει μεταφορά ανακληθέντων power banks.",
+      "source": "skyangkor",
+      "model": "pbp100"
+    },
+    {
+      "date": "2026-10-03",
+      "title": "Air Seoul prohibits recalled power banks",
+      "titleEl": "Air Seoul: απαγόρευση ανακληθέντων power banks",
+      "description": "Carrier notice names PANTONE PBP-100 as a principal affected model.",
+      "descriptionEl": "Η ανακοίνωση αναφέρει συγκεκριμένα το PANTONE PBP-100.",
+      "source": "airseoul",
+      "model": "pbp100"
+    },
+    {
+      "date": "2026-09-24",
+      "title": "NEWDERY ZHX-PB22 recall",
+      "titleEl": "Ανάκληση NEWDERY ZHX-PB22",
+      "description": "CPSC lists explosion and fire hazards for this model.",
+      "descriptionEl": "Η CPSC αναφέρει κίνδυνο έκρηξης και φωτιάς.",
+      "source": "cpsc_newdery",
+      "model": "zhxpb22"
+    },
+    {
+      "date": "2026-09-08",
+      "title": "Athens airport baggage screening update",
+      "titleEl": "Ενημέρωση ελέγχων αποσκευών στο Ελ. Βενιζέλος",
+      "description": "AEGEAN reports enhanced checks for power banks inside checked baggage from 8 September.",
+      "descriptionEl": "Η AEGEAN ενημερώνει για αυξημένους ελέγχους σε παραδοτέες αποσκευές από 8/9.",
+      "source": "aegean",
+      "model": null
+    }
+  ],
+  "provenance": {
+    "snapshotAsOf": "2026-10-30",
+    "lastManualReview": "2026-10-30",
+    "continuousMonitoring": false,
+    "authorityOrder": [
+      "regulator",
+      "airline",
+      "manufacturer",
+      "news"
+    ],
+    "limitations": [
+      "Partial model coverage",
+      "Manufacturer serial/batch decisions require their own official checker",
+      "Some airline policies have partial coverage",
+      "No automatic data updates from regulators or airlines"
+    ],
+    "release": "2026-11-01",
+    "cpsc_api": "Optional live lookup on same-origin Pages Worker. This endpoint is not accessible from this build sandbox; production HTTP runtime must be verified after deployment.",
+    "airline_reviews": "Official airline pages retrieved on 2026-11-01; not live-parsed and may subsequently change."
+  },
+  "dataModes": {
+    "curatedRegistry": "static source-reviewed records",
+    "cpscLive": "on-demand US regulator API; subject to caching, availability and model indexing; not worldwide coverage",
+    "airlines": "dated official carrier policies, not live checks"
+  }
+}

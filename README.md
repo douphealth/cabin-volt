@@ -1,29 +1,27 @@
-# Welcome to your Lovable project
+# CabinVolt — Can this power bank fly?
 
-This project was built with [Lovable](https://lovable.dev).
+A fast, private power bank checker for air travel. It checks one unit against curated official recalls, 22 airline policies and the ICAO rule in force since 27 March 2026 (no more than 2 power banks, no recharging them in flight). Every verdict links to the official page it comes from.
 
-## Build with Lovable
+## Features
+- **Live checker** – the verdict updates as you type, with an animated watt-hour gauge. It applies serial, batch, seller and India-route rules.
+- **Airline comparison** – search and sort by power bank count, Wh limit and whether you can use it onboard.
+- **Recall library** – filter by brand. Each model shows its scope, serial prefixes and the airlines that refuse it.
+- **Wh calculator** – sliders convert mAh × cell voltage, with the 100 Wh and 160 Wh marks shown.
+- **Methodology and sources** – authority order, known limitations and a review date for every source.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Principles
+- Safety first: the strictest finding wins, and "verify" is never shown as "OK".
+- A model that isn't in the list is never treated as cleared.
+- All checks run in the browser. No tracking.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## Stack
+TanStack Start (React 19), Vite, Tailwind CSS v4. Data lives in `src/data/registry.json`; the rule engine is in `src/lib/logic.ts`.
 
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+```bash
+bun install
+bun run dev
+bunx vitest run
 ```
 
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Disclaimer
+CabinVolt is a dated reference, not a flight clearance. The operating airline and crew have the final word.

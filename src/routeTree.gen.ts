@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CalculatorRouteImport } from './routes/calculator'
+import { Route as MethodologyRouteImport } from './routes/methodology'
+import { Route as SourcesRouteImport } from './routes/sources'
+import { Route as AirlinesIndexRouteImport } from './routes/airlines.index'
+import { Route as AirlinesIdRouteImport } from './routes/airlines.$id'
+import { Route as ModelsIndexRouteImport } from './routes/models.index'
+import { Route as ModelsIdRouteImport } from './routes/models.$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const CalculatorRoute = CalculatorRouteImport.update({
+  id: '/calculator',
+  path: '/calculator',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MethodologyRoute = MethodologyRouteImport.update({
+  id: '/methodology',
+  path: '/methodology',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SourcesRoute = SourcesRouteImport.update({
+  id: '/sources',
+  path: '/sources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AirlinesIndexRoute = AirlinesIndexRouteImport.update({
+  id: '/airlines/',
+  path: '/airlines/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AirlinesIdRoute = AirlinesIdRouteImport.update({
+  id: '/airlines/$id',
+  path: '/airlines/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ModelsIndexRoute = ModelsIndexRouteImport.update({
+  id: '/models/',
+  path: '/models/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ModelsIdRoute = ModelsIdRouteImport.update({
+  id: '/models/$id',
+  path: '/models/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/calculator': typeof CalculatorRoute
+  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
+  '/airlines/$id': typeof AirlinesIdRoute
+  '/models/$id': typeof ModelsIdRoute
+  '/airlines/': typeof AirlinesIndexRoute
+  '/models/': typeof ModelsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/calculator': typeof CalculatorRoute
+  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
+  '/airlines/$id': typeof AirlinesIdRoute
+  '/models/$id': typeof ModelsIdRoute
+  '/airlines': typeof AirlinesIndexRoute
+  '/models': typeof ModelsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/calculator': typeof CalculatorRoute
+  '/methodology': typeof MethodologyRoute
+  '/sources': typeof SourcesRoute
+  '/airlines/$id': typeof AirlinesIdRoute
+  '/models/$id': typeof ModelsIdRoute
+  '/airlines/': typeof AirlinesIndexRoute
+  '/models/': typeof ModelsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/calculator'
+    | '/methodology'
+    | '/sources'
+    | '/airlines/$id'
+    | '/models/$id'
+    | '/airlines/'
+    | '/models/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/calculator'
+    | '/methodology'
+    | '/sources'
+    | '/airlines/$id'
+    | '/models/$id'
+    | '/airlines'
+    | '/models'
+  id:
+    | '__root__'
+    | '/'
+    | '/calculator'
+    | '/methodology'
+    | '/sources'
+    | '/airlines/$id'
+    | '/models/$id'
+    | '/airlines/'
+    | '/models/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CalculatorRoute: typeof CalculatorRoute
+  MethodologyRoute: typeof MethodologyRoute
+  SourcesRoute: typeof SourcesRoute
+  AirlinesIdRoute: typeof AirlinesIdRoute
+  ModelsIdRoute: typeof ModelsIdRoute
+  AirlinesIndexRoute: typeof AirlinesIndexRoute
+  ModelsIndexRoute: typeof ModelsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +143,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/calculator': {
+      id: '/calculator'
+      path: '/calculator'
+      fullPath: '/calculator'
+      preLoaderRoute: typeof CalculatorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/methodology': {
+      id: '/methodology'
+      path: '/methodology'
+      fullPath: '/methodology'
+      preLoaderRoute: typeof MethodologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/sources': {
+      id: '/sources'
+      path: '/sources'
+      fullPath: '/sources'
+      preLoaderRoute: typeof SourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/airlines/': {
+      id: '/airlines/'
+      path: '/airlines'
+      fullPath: '/airlines/'
+      preLoaderRoute: typeof AirlinesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/airlines/$id': {
+      id: '/airlines/$id'
+      path: '/airlines/$id'
+      fullPath: '/airlines/$id'
+      preLoaderRoute: typeof AirlinesIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/models/': {
+      id: '/models/'
+      path: '/models'
+      fullPath: '/models/'
+      preLoaderRoute: typeof ModelsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/models/$id': {
+      id: '/models/$id'
+      path: '/models/$id'
+      fullPath: '/models/$id'
+      preLoaderRoute: typeof ModelsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CalculatorRoute: CalculatorRoute,
+  MethodologyRoute: MethodologyRoute,
+  SourcesRoute: SourcesRoute,
+  AirlinesIdRoute: AirlinesIdRoute,
+  ModelsIdRoute: ModelsIdRoute,
+  AirlinesIndexRoute: AirlinesIndexRoute,
+  ModelsIndexRoute: ModelsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
