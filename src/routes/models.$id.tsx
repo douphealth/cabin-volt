@@ -1,6 +1,8 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { REG, scopeLabel } from "@/lib/registry";
 import { PageHead } from "@/components/Shell";
+import { Faq, Block } from "@/components/Faq";
+import { modelAnswer, modelSteps, modelFaq } from "@/lib/content";
 
 export const Route = createFileRoute("/models/$id")({
   loader: ({ params }) => { const m = REG.models.find((x) => x.id === params.id); if (!m) throw notFound(); return m; },
@@ -35,6 +37,20 @@ function Page() {
           <Link to="/" className="inline-block rounded-full bg-primary text-primary-foreground px-5 py-2 font-medium">Run a full check →</Link>
         </aside>
       </section>
+      <Block title={`Is it safe to fly with the ${m.brand} ${m.model}?`}>
+        <p className="text-foreground text-lg">{modelAnswer(m)}</p>
+      </Block>
+      <Block title={`How to check your ${m.model} and what to do`}>
+        <ol className="list-decimal pl-5 space-y-2">{modelSteps(m).map((s) => <li key={s}>{s}</li>)}</ol>
+        {(m as typeof m & { actionUrl?: string }).actionUrl && <p><a href={(m as typeof m & { actionUrl?: string }).actionUrl} target="_blank" rel="noreferrer" className="text-primary">{m.brand} official recall page ↗</a></p>}
+      </Block>
+      {(() => { const rel = REG.models.filter((x) => x.id !== m.id && x.brand === m.brand); const other = rel.length ? rel : REG.models.filter((x) => x.id !== m.id).slice(0, 6); return (
+        <Block title={rel.length ? `Other ${m.brand} power bank notices` : "Other power bank recalls"}>
+          <div className="overflow-x-auto"><table className="w-full text-sm border rounded-xl"><thead><tr className="text-left font-mono text-[11px] uppercase"><th className="p-3">Model</th><th className="p-3">Name</th><th className="p-3">Scope</th><th className="p-3">Date</th></tr></thead>
+            <tbody>{other.map((x) => <tr key={x.id} className="border-t"><td className="p-3 font-mono"><Link to="/models/$id" params={{ id: x.id }} className="hover:text-primary">{x.brand} {x.model}</Link></td><td className="p-3">{x.name}</td><td className="p-3">{scopeLabel(x.scope)}</td><td className="p-3 font-mono">{x.date}</td></tr>)}</tbody></table></div>
+          <p><Link to="/models" className="text-primary">All {REG.models.length} tracked models →</Link></p>
+        </Block>); })()}
+      <Faq items={modelFaq(m)} />
     </>
   );
 }
