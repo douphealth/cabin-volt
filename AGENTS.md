@@ -30,4 +30,5 @@ use the editor.
 <!-- LOVABLE:END -->
 
 - CabinVolt data is a static JSON registry (src/data) evaluated client-side by src/lib/logic.ts; keep verdict logic in that one engine so every page agrees.
+- Public canonical origin is `SITE_URL` in `src/lib/site.ts` (`VITE_SITE_URL`, default `https://cabinvolt.shop`). Regenerate `public/sitemap.xml`, `public/robots.txt`, and `public/llms.txt` from that module; do not invent airline rules, verification dates, or authors.
 - Store retrieval and reviewed-passage evidence separately from inherited source dates; an HTTP success or source hash must never automatically update safety rules or verification status.
