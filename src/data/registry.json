@@ -1,6 +1,6 @@
 {
   "edition": "2026-11-01",
-  "coverageNote": "Curated international regulator/manufacturer notices; official US CPSC on-demand lookup is available only when the Pages Worker reaches the upstream service. Airline policies are dated editorial records, not a live global feed. No match is not clearance.",
+  "coverageNote": "Curated model notices and dated airline records, not a live global recall service. Some evidence remains unverified in the current audit. No match is not clearance.",
   "sources": {
     "icao": {
       "name": "ICAO — power-bank rule effective 27 March 2026",
@@ -159,7 +159,7 @@
     "emirates": {
       "name": "Emirates — Power bank rules",
       "url": "https://www.emirates.com/media-centre/emirates-makes-changes-to-safety-rules-for-customer-usage-of-power-banks-onboard/",
-      "date": "2025-09-30",
+      "date": "2025-08-08",
       "type": "airline",
       "independentlyReviewed": "2026-10-30",
       "reviewMethod": "official page content reviewed, not live monitoring"
@@ -631,13 +631,14 @@
       "issue": "regulator-ban",
       "scope": "route-india",
       "date": "2026-09-29",
-      "description": "India's DGCA Aeronautical Information Circular 14/2026 prohibits this exact model on flights to, from or within India, including cabin, checked baggage and cargo.",
-      "descriptionEl": "Η εγκύκλιος DGCA AIC 14/2026 απαγορεύει αυτό το μοντέλο σε πτήσεις προς, από ή εντός Ινδίας, σε κάθε τύπο αποσκευής.",
+      "description": "Nepal Airlines publishes an India-sector restriction for MOBIKINS MK-PB-04 citing DGCA AIC 14/2026. The primary DGCA circular has not been independently reviewed here; confirm applicability with your operating carrier.",
+      "descriptionEl": "Η Nepal Airlines δημοσιεύει περιορισμό για το MOBIKINS MK-PB-04 σε δρομολόγια Ινδίας, επικαλούμενη την DGCA AIC 14/2026. Η πρωτογενής εγκύκλιος δεν έχει επαληθευτεί ανεξάρτητα εδώ· επιβεβαιώστε με την αεροπορική σας.",
       "sources": [
         "airindia_mobikins",
         "nepal_mobikins"
       ],
-      "actionUrl": "https://www.nepalairlines.com.np/notices/restriction-to-carry-mobikins-mk-pb-04-power-bank-in-india-sector"
+      "actionUrl": "https://www.nepalairlines.com.np/notices/restriction-to-carry-mobikins-mk-pb-04-power-bank-in-india-sector",
+      "evidenceStatus": "secondary-regulatory-report"
     }
   ],
   "airlines": [
@@ -1020,7 +1021,7 @@
       "date": "2026-10-14",
       "title": "India flight restriction: MOBIKINS MK-PB-04",
       "titleEl": "Απαγόρευση Ινδίας: MOBIKINS MK-PB-04",
-      "description": "DGCA AIC 14/2026 prohibits this specific model on India routes; notice reported by airline and press.",
+      "description": "Carrier reporting cites DGCA AIC 14/2026 for this model on India routes. Primary regulatory applicability has not been independently verified here.",
       "descriptionEl": "Η εγκύκλιος DGCA AIC 14/2026 απαγορεύει το μοντέλο σε δρομολόγια Ινδίας.",
       "source": "airindia_mobikins",
       "model": "mkpb04"
@@ -1079,12 +1080,12 @@
       "No automatic data updates from regulators or airlines"
     ],
     "release": "2026-11-01",
-    "cpsc_api": "Optional live lookup on same-origin Pages Worker. This endpoint is not accessible from this build sandbox; production HTTP runtime must be verified after deployment.",
+    "cpsc_api": "No live CPSC lookup is implemented in this app.",
     "airline_reviews": "Official airline pages retrieved on 2026-11-01; not live-parsed and may subsequently change."
   },
   "dataModes": {
     "curatedRegistry": "static source-reviewed records",
-    "cpscLive": "on-demand US regulator API; subject to caching, availability and model indexing; not worldwide coverage",
+    "cpscLive": "not implemented",
     "airlines": "dated official carrier policies, not live checks"
   }
 }

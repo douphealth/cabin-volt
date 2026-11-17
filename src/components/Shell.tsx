@@ -28,7 +28,7 @@ export function Shell({ children }: { children: ReactNode }) {
             ))}
           </nav>
           <span className="ml-auto hidden sm:flex items-center gap-2 font-mono text-xs text-muted-foreground">
-            <span className="size-2 rounded-full bg-safe animate-pulse-dot" /> Edition {REG.edition}
+            App release {REG.edition}
           </span>
         </div>
         <nav className="md:hidden flex gap-1 overflow-x-auto px-4 pb-2 text-sm">
@@ -42,9 +42,9 @@ export function Shell({ children }: { children: ReactNode }) {
         <div className="mx-auto max-w-6xl px-5 py-10 grid gap-6 md:grid-cols-[2fr_1fr] text-sm text-muted-foreground">
           <p className="max-w-xl">{REG.coverageNote} CabinVolt is a dated reference check, never a flight clearance. The operating airline and crew have the final word.</p>
           <div className="flex flex-col gap-1 md:items-end font-mono text-xs">
-            <span>Snapshot {REG.provenance.snapshotAsOf}</span>
+            <span>Dataset snapshot {REG.provenance.snapshotAsOf}</span>
             <span>{REG.models.length} models · {REG.airlines.length} airlines · {Object.keys(REG.sources).length} sources</span>
-            <Link to="/methodology" className="text-primary hover:underline">How we verify →</Link>
+            <Link to="/methodology" className="text-primary hover:underline">Evidence & privacy →</Link>
           </div>
         </div>
       </footer>
@@ -64,6 +64,6 @@ export function PageHead({ eyebrow, title, children }: { eyebrow: string; title:
 
 export function LevelBadge({ level }: { level: "danger" | "caution" | "info" }) {
   const cls = level === "danger" ? "bg-danger/15 text-danger border-danger/40" : level === "caution" ? "bg-caution/15 text-caution border-caution/40" : "bg-safe/15 text-safe border-safe/40";
-  const label = level === "danger" ? "STOP" : level === "caution" ? "VERIFY" : "OK";
+  const label = level === "danger" ? "STOP" : level === "caution" ? "VERIFY" : "CHECKED";
   return <span className={`inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 font-mono text-[11px] tracking-widest ${cls}`}><span className="size-1.5 rounded-full bg-current" />{label}</span>;
 }

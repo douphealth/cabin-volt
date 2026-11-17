@@ -13,6 +13,7 @@ export const REG = registry as unknown as {
 const EN = (i18n as unknown as { en: Record<string, string> }).en;
 export const t = (k: string, fallback = "") => EN[k] ?? fallback;
 export const reasonText = (code: string) => t(`reason_${code}`, code);
-export const levelLabel = { danger: "Do not fly with it", caution: "Needs verification", info: "No listed issue" } as const;
+export const levelLabel = { danger: "Restriction found", caution: "Needs verification", info: "No restriction identified in checked rules" } as const;
 export const scopeLabel = (s: string) => ({ all: "All units", "serial-check": "Serial check", "serial-prefix": "Serial prefix", "batch-check": "Batch check", "batch-date": "Manufacture date", "no-date-code": "Condition-based", "seller-us": "US seller", route: "Route ban" } as Record<string, string>)[s] ?? s;
 export const yesNo = (v: string) => ({ no: "Not allowed", yes: "Allowed", limited: "Limited", approval: "With approval", unknown: "Unverified", unconfirmed: "Unconfirmed", restricted: "Restricted" } as Record<string, string>)[v] ?? v;
+export const hasDocumentedOnboardUse = (airline: Pick<Airline, "use">) => ["yes", "restricted", "limited"].includes(airline.use);

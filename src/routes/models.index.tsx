@@ -6,9 +6,9 @@ import { PageHead } from "@/components/Shell";
 export const Route = createFileRoute("/models/")({
   head: () => ({ meta: [
     { title: "Power bank recalls & bans tracked for flights | CabinVolt" },
-    { name: "description", content: "Curated, source-reviewed list of recalled and banned power bank models from Anker, Belkin, Xiaomi and more, with serial and batch scope." },
+    { name: "description", content: "Curated model safety notices from Anker, Belkin, Xiaomi and more, with serial and batch scope and unresolved evidence review gaps." },
     { property: "og:title", content: "Recalled power banks you shouldn't fly with" },
-    { property: "og:description", content: "Every tracked model with its regulator notice and scope." },
+    { property: "og:description", content: "Tracked model notices, reported restrictions and unit eligibility scope." },
     { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
   ] }),
   component: Models,
@@ -21,7 +21,7 @@ function Models() {
   const list = useMemo(() => REG.models.filter((m) => (!brand || m.brand === brand) && (m.brand + m.model + m.name).toLowerCase().includes(q.toLowerCase())).sort((a, b) => b.date.localeCompare(a.date)), [brand, q]);
   return (
     <>
-      <PageHead eyebrow="Recalls & bans" title="Models with an official notice.">A curated selection, not a worldwide database. Not finding your model does not mean it's safe.</PageHead>
+      <PageHead eyebrow="Recalls & reported restrictions" title="Models with a cited safety notice.">A curated selection, not a worldwide database. Some applicability remains under review. Not finding your model does not mean it's safe.</PageHead>
       <section className="mx-auto max-w-6xl px-5">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search model or name…" className="w-full rounded-xl border bg-background/60 px-4 py-2.5 outline-none focus:border-primary font-mono" />
         <div className="flex flex-wrap gap-2 my-4">

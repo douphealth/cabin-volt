@@ -1,0 +1,355 @@
+{
+  "checkedAt": "2026-11-17",
+  "records": [
+    {
+      "id": "icao",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "faa",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Spare (uninstalled) lithium ion and lithium metal batteries, including power banks and cell phone battery charging cases, must be carried in carry-on baggage only .",
+      "applicability": "US FAA reference: cabin carriage, terminal protection, 100 Wh reference and larger-battery approval. Not evidence for an ICAO-wide two-bank limit.",
+      "retrievalSha256": "900591d3bd50b9814dd8ebc2e51d42cca5f319fb1dbd9fa7099c7c02aa2e5e20"
+    },
+    {
+      "id": "cpsc_anker_2025",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "anker_2025",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Step 2: Verify your serial number or submit your proof of purchase using our online recall form:",
+      "applicability": "Manufacturer global recall for A1647, A1652, A1257, A1681 and A1689; exact-unit eligibility requires manufacturer confirmation.",
+      "retrievalSha256": "ab244472670862b3a52375316af2ac2f0ba55dad1b79828e45129ebd8e173c56"
+    },
+    {
+      "id": "cpsc_anker_1263",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_anker_2024",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_iniu",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_belkin",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_newdery",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_casely",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_charmast",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_poppy",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_haiara",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "xiaomi_recall",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
+      "retrievalSha256": "61018dff3c04d1b964ff99e2542f4f2912ee17593236423ec42ad0d9ea919578"
+    },
+    {
+      "id": "xiaomi_specs",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Ονομαστική ισχύς μπαταρίας 74Wh (7,4V 10000mAh)",
+      "applicability": "PB2030MI rated battery energy, not 5 V USB output capacity; recall applicability not established by specifications.",
+      "retrievalSha256": "4bc68033cc2eed8694799aacf4c84a6304bca98c0d88c48a6e5c637e45aa4aa7"
+    },
+    {
+      "id": "safetykorea_pantone",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "nepal_mobikins",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Carrier India-sector notice retrieved; primary DGCA AIC 14/2026 not independently reviewed. Full regulatory applicability remains unresolved.",
+      "retrievalSha256": "aa2959658d8d5b33a8cecaab6e0cbfcf963ac982ab75847b8ebc4090fb512f68"
+    },
+    {
+      "id": "mobikins_news",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "retrievalSha256": "e58532f7e5013c23b5f85e155ffdc700c6c8ef6a30a8f9df51594aac8e3bb6ae"
+    },
+    {
+      "id": "aegean",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "ryanair",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "emirates",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Emirates customers may carry one power bank that is under 100 Watt Hours.",
+      "applicability": "Emirates: one bank, strictly under 100 Wh, visible rating, no onboard use or recharge; no overhead storage.",
+      "effectiveFrom": "2025-10-01",
+      "retrievalSha256": "7e710a5db550a4fc36323fbfb204f22687304140fbfa18711253d68f0017d7f2"
+    },
+    {
+      "id": "qatar",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "ba",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
+      "retrievalSha256": "302ab10f62bfead3c080c86a15134c24363a5af5eb0f74f41fec901533c261c2"
+    },
+    {
+      "id": "easyjet",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
+      "retrievalSha256": "2275b5c5dd3f0653a6ab33279783d9b2f6264f59e896b394eccb842363f060b2"
+    },
+    {
+      "id": "scoot",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "indigo",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "vietnam",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "retrievalSha256": "9db7a373264cbe90dbf2e0099e69b66f1978786335ef1532c71dc5cc27043d8d"
+    },
+    {
+      "id": "airseoul",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "skyangkor",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Representative Model Name: PANTONE PBP-100",
+      "applicability": "Carrier recalled-bank prohibition; does not independently verify Korean regulator manufacture-date scope.",
+      "retrievalSha256": "fd489bc6ed34cbe2bbbc210ac1fda213361cce742ff91104477cb22ba8a6b4ed"
+    },
+    {
+      "id": "uk_belkin",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Consumers should stop using the product immediately and complete the recall form on the Belkin website to receive a full refund or replacement.",
+      "applicability": "UK OPSS BPB002/PB0003 advisory; does not verify US serial-prefix scope.",
+      "retrievalSha256": "f167be6af3da95ad0f10489dc8f815429c856e9e51e67c780998b4b8394ed86d"
+    },
+    {
+      "id": "airindia_mobikins",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "uk_caa",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Must not be recharged on board the aircraft Should not be used to charge other portable electronic devices on board the aircraft Maximum of two power banks per person",
+      "applicability": "UK CAA explanation of ICAO passenger/crew provisions; use discouraged differs from recharging prohibited.",
+      "effectiveFrom": "2026-03-27",
+      "retrievalSha256": "81a2756b238f87da4904c84f62ec17024345976164f724a26151a223300eb0d7"
+    },
+    {
+      "id": "lufthansa26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "klm26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "sia26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supporting passage inspected in this audit; not a guarantee of future policy or complete worldwide coverage.",
+      "excerpt": "Each passenger may carry a maximum of two power banks* on board on all SIA flights.",
+      "applicability": "Singapore Airlines: two banks; up to 100 Wh without approval, through 160 Wh with approval, no onboard use or recharge.",
+      "retrievalSha256": "eadcad13ae13ef5817b0ea70b347c461920af47ebf566897e92fa2429c2004ea"
+    },
+    {
+      "id": "qantas26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "retrievalSha256": "303eb9ee2459bbf0bf1acb7306abeedc00842f99b932b657b0a45766ff20a847"
+    },
+    {
+      "id": "etihad26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "wizz26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "korean26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "airfrance26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "vueling26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "delta26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "retrievalSha256": "3e86fb8d85502bd9b192eca97ac3267501eef31abc6d5f511c9cd7f45919edb1"
+    },
+    {
+      "id": "turkish26",
+      "checkedAt": "2026-11-17",
+      "httpStatus": null,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "cpsc_api",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 403,
+      "status": "unavailable",
+      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+    },
+    {
+      "id": "hcdata",
+      "checkedAt": "2026-11-17",
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "retrievalSha256": "3157e59b63cdb236b240ba7eb04af220f1964a345f7f5709930564fcd85211a0"
+    }
+  ]
+}

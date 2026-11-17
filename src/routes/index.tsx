@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "CabinVolt — Can this power bank fly? Instant source-backed check" },
-      { name: "description", content: "Check a power bank against curated recalls, 22 airline policies and the ICAO 2026 rule in seconds. Private, offline-first, every verdict cited." },
+      { name: "description", content: `Check a power bank against dated safety notices, ${REG.airlines.length} airline records and watt-hour limits. Local evaluation, explicit uncertainty, linked evidence.` },
       { property: "og:title", content: "CabinVolt — Can this power bank fly?" },
       { property: "og:description", content: "Recalls, airline limits and watt-hours in one cited check." },
       { property: "og:type", content: "website" },
@@ -51,7 +51,7 @@ function Index() {
             Can this power bank <span className="text-primary">fly?</span>
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-lg">
-            One check across {REG.models.length} documented recalls, {REG.airlines.length} airline policies and the watt-hour limits. Every verdict links to its official source. Nothing leaves your browser.
+            Check {REG.models.length} tracked models, {REG.airlines.length} airline policy records and watt-hour limits against a dated dataset. Checker inputs are evaluated on your device; this is not a live recall search.
           </p>
           <div className="mt-8 grid grid-cols-3 gap-3 max-w-md">
             {[[REG.models.length, "tracked models"], [REG.airlines.length, "airlines"], [Object.keys(REG.sources).length, "cited sources"]].map(([n, l]) => (
@@ -62,7 +62,7 @@ function Index() {
 
         <div className="panel glow p-6 md:p-7 animate-rise relative overflow-hidden" style={{ animationDelay: ".1s" }}>
           <div className="absolute inset-x-0 top-0 h-px overflow-hidden"><div className="h-px w-1/4 bg-primary animate-scan" /></div>
-          <p className="eyebrow mb-4">Live check</p>
+           <p className="eyebrow mb-4">Instant check</p>
           <div className="space-y-4">
             <div className="relative">
               <label className="text-sm font-medium">Model number on the label</label>
@@ -114,6 +114,7 @@ function Index() {
 
       <section className="mx-auto max-w-6xl px-5">
         <div className={`panel border-2 ${touched ? ring : ""} p-6 md:p-8 transition-colors`} aria-live="polite">
+          <p className="text-xs text-muted-foreground mb-5">Dataset snapshot {REG.provenance.snapshotAsOf} · source verification varies by record · not flight clearance.</p>
           <div className="grid md:grid-cols-[auto_1fr] gap-8 items-center">
             <div className="flex flex-col items-center">
               <WhGauge wh={result.wh} />
@@ -161,7 +162,7 @@ function Index() {
 
       <section className="mx-auto max-w-6xl px-5 mt-20 grid md:grid-cols-3 gap-4">
         {[["quick_a_title", "quick_a_body"], ["quick_b_title", "quick_b_body"], ["quick_c_title", "quick_c_body"]].map(([a, b]: string[], i) => (
-          <div key={a} className="panel lift p-6"><div className="font-mono text-primary text-sm">0{i + 1}</div><h3 className="font-display text-xl font-semibold mt-2">{t(a!)}</h3><p className="text-muted-foreground mt-2 text-sm">{t(b!)}</p></div>
+          <div key={a} className="panel lift p-6"><div className="font-mono text-primary text-sm">0{i + 1}</div><h3 className="font-display text-xl font-semibold mt-2">{t(a ?? "")}</h3><p className="text-muted-foreground mt-2 text-sm">{t(b ?? "")}</p></div>
         ))}
       </section>
 
