@@ -12,14 +12,15 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { absoluteUrl } from "../lib/site";
 import { Shell } from "../components/Shell";
 
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
       <div className="max-w-md text-center">
-        <h1 className="text-7xl font-bold text-foreground">404</h1>
-        <h2 className="mt-4 text-xl font-semibold text-foreground">Page not found</h2>
+        <p className="font-mono text-sm text-muted-foreground">404</p>
+        <h1 className="mt-4 text-xl font-semibold text-foreground">Page not found</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           The page you're looking for doesn't exist or has been moved.
         </p>
@@ -75,32 +76,37 @@ function ErrorComponent({ error, reset }: ErrorComponentProps) {
 }
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
-  head: () => ({
-    // Replace these placeholders with the app's name and description when first building the app.
-    // Each content route, / included, must still set its own head(). Never add og:image or
-    // twitter:image here: every page without its own would inherit the root's preview image.
-    meta: [
+  head: ({ matches }) => {
+    // Not-found route heads are omitted from the rendered document, so the shell
+    // supplies the 404 title and robots tag. Content routes override the title.
+    const missing = matches.some((match) => match.status === "notFound" || match._notFound);
+    const meta: Array<
+      { charSet: "utf-8" } | { title: string } | { name: string; content: string }
+    > = [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "CabinVolt — Can this power bank fly?" },
-      { name: "description", content: "Source-backed power bank checks for flights: recalls, airline limits and watt-hours." },
-      { name: "author", content: "CabinVolt" },
-      { property: "og:title", content: "CabinVolt — Can this power bank fly?" },
-      { property: "og:description", content: "Source-backed power bank checks for flights: recalls, airline limits and watt-hours." },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-    links: [
-      {
-        rel: "stylesheet",
-        href: appCss,
-      },
+      { title: missing ? "Page not found | CabinVolt" : "CabinVolt" },
+    ];
+    if (missing) {
+      meta.push(
+        { name: "description", content: "That address is not a CabinVolt page." },
+        { name: "robots", content: "noindex, follow" },
+      );
+    }
+    const links: Array<{ rel: string; href: string; type?: string; crossOrigin?: "anonymous" }> = [
+      { rel: "stylesheet", href: appCss },
       { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" },
-    ],
-  }),
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap",
+      },
+    ];
+    const path = matches[matches.length - 1]?.pathname;
+    if (missing && path) links.push({ rel: "canonical", href: absoluteUrl(path) });
+    return { meta, links };
+  },
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,

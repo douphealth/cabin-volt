@@ -1,6 +1,7 @@
 import { createStart, createCsrfMiddleware, createMiddleware } from "@tanstack/react-start";
 
 import { renderErrorPage } from "./lib/error-page";
+import { cleanRequestPath } from "./lib/site";
 
 const errorMiddleware = createMiddleware().server(async ({ next }) => {
   try {
@@ -30,6 +31,39 @@ const csrfMiddleware = createCsrfMiddleware({
 // requireSupabaseAuth server functions need. Add it by hand only if Lovable Cloud or a
 // user-managed Supabase project is connected, no middleware here sets Authorization, and the
 // project did not intentionally replace it.
+const canonicalUrlMiddleware = createMiddleware().server(async ({ next, request, handlerType }) => {
+  if (handlerType !== "router") return next();
+
+  const url = new URL(request.url);
+  const cleaned = cleanRequestPath(url.pathname, url.search);
+  if (cleaned && (request.method === "GET" || request.method === "HEAD")) {
+    return new Response(null, {
+      status: 301,
+      headers: { Location: new URL(cleaned, url.origin).toString() },
+    });
+  }
+
+  const result = await next();
+  if (result instanceof Response) return result;
+
+  const isFile = /\.[a-z0-9]+$/i.test(url.pathname);
+  const hasQuery = url.search.length > 1;
+  const notFound = result.response.status === 404;
+  if (notFound || (!isFile && hasQuery)) {
+    const headers = new Headers(result.response.headers);
+    headers.set("X-Robots-Tag", "noindex, follow");
+    return {
+      ...result,
+      response: new Response(result.response.body, {
+        status: result.response.status,
+        statusText: result.response.statusText,
+        headers,
+      }),
+    };
+  }
+  return result;
+});
+
 export const startInstance = createStart(() => ({
-  requestMiddleware: [errorMiddleware, csrfMiddleware],
+  requestMiddleware: [canonicalUrlMiddleware, errorMiddleware, csrfMiddleware],
 }));

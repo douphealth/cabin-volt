@@ -1,0 +1,57 @@
+# CabinVolt
+
+> CabinVolt checks one power bank against 18 tracked model notices, 22 airline records and watt-hour limits in a dated dataset.
+
+CabinVolt checks one power bank against 18 tracked model notices, 22 airline records and watt-hour limits in a dated dataset. The registry includes the ICAO rule in force since 27 March 2026: no more than 2 power banks, and no recharging them in flight. Checker inputs are evaluated on your device. This is not a live recall search or a flight clearance.
+
+Curated model notices and dated airline records, not a live global recall service. Some evidence remains unverified in the current audit. No match is not clearance.
+CabinVolt is a dated reference check, never a flight clearance. The operating airline and crew have the final word.
+
+## Pages
+
+- [Can this power bank fly? | CabinVolt](https://cabinvolt.shop/): CabinVolt checks one power bank against 18 tracked model notices, 22 airline records and watt-hour limits in a dated dataset.
+- [Airline power bank rules | CabinVolt](https://cabinvolt.shop/airlines): Dated records from each carrier's own pages. Strictest first when you sort by count or Wh. ICAO's maximum of two is not a promise.
+- [AEGEAN / Olympic Air power bank rules | CabinVolt](https://cabinvolt.shop/airlines/aegean): Only one power bank per passenger, up to 100 Wh. Cabin only; neither charging a device from it nor recharging it is allowed in flight.
+- [Air France power bank rules | CabinVolt](https://cabinvolt.shop/airlines/airfrance): Power banks 100–160 Wh need prior approval and must remain accessible in cabin. Exact use restrictions/quantity for this route require airline confirmation.
+- [Air Seoul power bank rules | CabinVolt](https://cabinvolt.shop/airlines/airseoul): Prohibits recalled power banks for carriage; explicitly names PANTONE PBP-100. General capacity/count rules need direct airline confirmation.
+- [British Airways power bank rules | CabinVolt](https://cabinvolt.shop/airlines/ba): At most two power banks, each no more than 100 Wh, and capacity must be visibly marked. Do not charge the bank from the aircraft seat power supply.
+- [Delta Air Lines power bank rules | CabinVolt](https://cabinvolt.shop/airlines/delta): Official Delta guidance restricts spare lithium batteries to carry-on and bans damaged or recalled batteries.
+- [easyJet power bank rules | CabinVolt](https://cabinvolt.shop/airlines/easyjet): Two power banks at most, each up to 160 Wh. For capacity over 100 Wh, confirm airline approval before travel; power bank use onboard is prohibited.
+- [Emirates power bank rules | CabinVolt](https://cabinvolt.shop/airlines/emirates): One power bank per passenger, strictly under 100 Wh. Capacity rating must be visible; no use or recharging during flight; keep it accessible, not overhead.
+- [Etihad Airways power bank rules | CabinVolt](https://cabinvolt.shop/airlines/etihad): One power bank only, visibly labelled 100 Wh or below. No use or charging during flight, cabin only.
+- [IndiGo power bank rules | CabinVolt](https://cabinvolt.shop/airlines/indigo): Cabin baggage only, max two power banks. IndiGo says each must not exceed 160 Wh; confirm approval for units over 100 Wh before departure.
+- [KLM power bank rules | CabinVolt](https://cabinvolt.shop/airlines/klm): Up to two power banks in cabin baggage. Above 100 through 160 Wh requires airline approval; no onboard use or charging, and do not use overhead bins.
+- [Korean Air power bank rules | CabinVolt](https://cabinvolt.shop/airlines/korean): Two power banks max; 100–160 Wh requires approval. Carry-on only, protect terminals, and keep accessible. Verify route departure-specific restrictions.
+- [Lufthansa power bank rules | CabinVolt](https://cabinvolt.shop/airlines/lufthansa): Up to two power banks, each at most 100 Wh. No use or charging on board except approved medical devices; not in overhead lockers.
+- [Qantas power bank rules | CabinVolt](https://cabinvolt.shop/airlines/qantas): Two power banks maximum, each no more than 160 Wh, carry-on only. Do not use or charge on board.
+- [Qatar Airways power bank rules | CabinVolt](https://cabinvolt.shop/airlines/qatar): Two power banks at most, each up to 100 Wh. Recharging the power bank is prohibited; verify whether using it to charge a device is permitted.
+- [Ryanair power bank rules | CabinVolt](https://cabinvolt.shop/airlines/ryanair): Power banks up to 100 Wh only, kept under-seat/on-person. Charging devices is permitted except taxi, takeoff and landing, and subject to crew instructions.
+- [Scoot power bank rules | CabinVolt](https://cabinvolt.shop/airlines/scoot): Two power banks at most. Up to 100 Wh without approval; over 100 through 160 Wh only with carrier approval. Neither use nor charging onboard.
+- [Singapore Airlines power bank rules | CabinVolt](https://cabinvolt.shop/airlines/singapore): Up to two power banks. Up to 100 Wh without approval; above 100 through 160 Wh requires approval. No onboard use or charging.
+- [Sky Angkor Airlines power bank rules | CabinVolt](https://cabinvolt.shop/airlines/skyangkor): Prohibits recalled power banks, naming PANTONE PBP-100. General power bank size/quantity policy is not independently recorded here.
+- [Turkish Airlines power bank rules | CabinVolt](https://cabinvolt.shop/airlines/turkish): Official Turkish Airlines restrictions page covers lithium batteries. Confirm exact power-bank limits directly before travel; this record does not certify them.
+- [Vietnam Airlines power bank rules | CabinVolt](https://cabinvolt.shop/airlines/vietnam): Explicitly prohibits recalled power banks in both cabin and checked bags, including PANTONE PBP-100.
+- [Vueling power bank rules | CabinVolt](https://cabinvolt.shop/airlines/vueling): Official Vueling page allows a power bank in cabin baggage and prohibits charging batteries on board; detailed Wh and count limits not confirmed here.
+- [Wizz Air power bank rules | CabinVolt](https://cabinvolt.shop/airlines/wizz): One power bank maximum, at most 100 Wh with clear label, no use on board and no checked-baggage carriage.
+- [Power bank safety notices | CabinVolt](https://cabinvolt.shop/models): A curated selection, not a worldwide database. Some applicability remains under review. Not finding your model does not mean it's safe.
+- [HAIARA W5 PRO | CabinVolt](https://cabinvolt.shop/models/w5pro): The US CPSC notice applies to HAIARA W5 PRO units sold by Mitrytech with NO YYYYMMDD date code printed on the side. Verify both conditions.
+- [MOBIKINS MK-PB-04 | CabinVolt](https://cabinvolt.shop/models/mkpb04): Nepal Airlines publishes an India-sector restriction for MOBIKINS MK-PB-04 citing DGCA AIC 14/2026.
+- [NEWDERY ZHX-PB22 | CabinVolt](https://cabinvolt.shop/models/zhxpb22): US CPSC recalled NEWDERY ZHX-PB22 power banks due to fire and burn hazards.
+- [XO Poppy PYPBK5M | CabinVolt](https://cabinvolt.shop/models/pypbk5m): US CPSC recalled the XO Poppy Power Trip magnetic bank, including the documented color/print variations.
+- [Casely E33A | CabinVolt](https://cabinvolt.shop/models/e33a): US CPSC reannounced the Casely E33A recall in April 2026, following an earlier 2025 recall.
+- [PANTONE PBP-100 | CabinVolt](https://cabinvolt.shop/models/pbp100): Korean regulator recall applies to units made 1 September–31 October 2025.
+- [INIU BI-B41 | CabinVolt](https://cabinvolt.shop/models/bib41): The US CPSC recall covers only serial numbers starting 000G21, 000H21, 000I21 or 000L21. Other serials are not identified in that specific notice.
+- [Belkin BPB002 | CabinVolt](https://cabinvolt.shop/models/bpb002): The US CPSC notice includes BPB002 power banks with 14-character serial numbers beginning 35S.
+- [Belkin PB0003 | CabinVolt](https://cabinvolt.shop/models/pb0003): The CPSC explicitly states all serial numbers of Belkin model PB0003 are included in this recall.
+- [Xiaomi PB2030MI | CabinVolt](https://cabinvolt.shop/models/pb2030mi): Xiaomi recalled a limited batch manufactured in August–September 2024. Use Xiaomi's serial-number form to verify your unit. Rated battery energy is 74 Wh.
+- [Anker A1257 | CabinVolt](https://cabinvolt.shop/models/a1257): Included in Anker's 2025 recall. Determine whether your serial number is affected through the manufacturer's official recall form.
+- [Anker A1647 | CabinVolt](https://cabinvolt.shop/models/a1647): Appears in both 2024 and 2025 Anker recall notices. Anker says units previously cleared should be checked again against the newer recall.
+- [Anker A1652 | CabinVolt](https://cabinvolt.shop/models/a1652): Listed in the US CPSC 2025 recall; region and serial-number eligibility may differ. Confirm against Anker's official recall instructions.
+- [Anker A1681 | CabinVolt](https://cabinvolt.shop/models/a1681): Included in Anker's recall of selected power banks. Official serial-number verification is needed.
+- [Anker A1689 | CabinVolt](https://cabinvolt.shop/models/a1689): Included in the 2025 Anker recall; the unit's serial number must be checked with the manufacturer.
+- [Anker A1263 | CabinVolt](https://cabinvolt.shop/models/a1263): Anker PowerCore 10000 A1263 appears in a US CPSC recall.
+- [Charmast W1056 | CabinVolt](https://cabinvolt.shop/models/w1056): Charmast W1056 units purchased via Amazon.com USA were recalled; confirm the sales channel and recall procedure with Charmast.
+- [Anker A1642 | CabinVolt](https://cabinvolt.shop/models/a1642): A1642 appears in a 2024 CPSC recall for certain Anker power banks. Confirm that your individual unit is included.
+- [Power bank Wh calculator | CabinVolt](https://cabinvolt.shop/calculator): Wh = mAh × nominal cell voltage ÷ 1000. Use the cell voltage on the label (usually 3.6–3.85 V), never the 5 V USB output.
+- [How CabinVolt verifies | CabinVolt](https://cabinvolt.shop/methodology): Every verdict comes from the strictest applicable finding. Uncertainty is shown as "verify", never as "OK".
+- [Evidence sources | CabinVolt](https://cabinvolt.shop/sources): Regulators, manufacturers, carriers and secondary reporting. Audit attempted 2026-11-17; a successful retrieval alone is not policy verification.
