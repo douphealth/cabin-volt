@@ -30,4 +30,13 @@ describe("evidence integrity", () => {
     expect(result.severity).not.toBe("info");
     expect(evidenceFor("nepal_mobikins")?.status).toBe("needs-review");
   });
+  it("limits Lufthansa power banks to 100 Wh with no approval path", () => {
+    const over = evaluateLookup({ modelText: "", airlineId: "lufthansa", whInput: "120" }, REG, new Date("2026-11-17"));
+    expect(over.reasons.some((reason: { code: string }) => reason.code === "airline-wh-exceeded")).toBe(true);
+    expect(over.severity).toBe("danger");
+  });
+  it("keeps blocked sources explicitly unverified", () => {
+    expect(evidenceFor("wizz26")?.status).toBe("unavailable");
+    expect(evidenceFor("airfrance26")?.status).toBe("unavailable");
+  });
 });

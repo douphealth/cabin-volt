@@ -12,7 +12,15 @@
 - Singapore and Sky Angkor passages support recorded carrier conditions.
 - Nepal carrier notice is available, but the primary DGCA document remains unreviewed; retain an attributed precaution, not independently confirmed regulatory certainty.
 
-## Inventory
+## Second pass — 17 November 2026
+
+Retried every unreviewed source; 35 of 45 now have an inspected supporting passage. 8 remain needs-review (DGCA primary circular, Mobikins secondary/carrier notices, Air India redirect, Safety Korea navigation-only page, IndiGo count/approval, Turkish, Vueling, Delta) and 2 remain unavailable (Wizz Air 403, Air France DNS failure).
+
+- **Corrected:** Lufthansa power banks are capped at 100 Wh (two per passenger); the 100–160 Wh approval path applies to devices, not power banks.
+- **Noted, kept precautionary:** easyJet grants automatic approval up to 160 Wh; the checker still asks over-100 Wh travelers to confirm.
+- All ten CPSC recall scopes (models, serial prefixes, seller channels, dates) match the registry.
+
+## Inventory (first pass)
 
 | Source | Retrieval | Audit status |
 |---|---|---|

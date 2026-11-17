@@ -4,9 +4,11 @@
     {
       "id": "icao",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Second-pass retrieval succeeded; passage supports two-bank limit and in-flight recharge prohibition.",
+      "excerpt": "these devices will now be limited to two per passenger, and passengers will be prohibited from recharging them during flights",
+      "applicability": "ICAO baseline for power banks; individual airlines may impose stricter limits."
     },
     {
       "id": "faa",
@@ -21,9 +23,11 @@
     {
       "id": "cpsc_anker_2025",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Model list matches registry; serial-check scope retained. Recall date 18 Sep 2025.",
+      "excerpt": "This recall involves Anker Power Banks with model numbers A1647, A1652, A1257, A1681 and A1689.",
+      "applicability": "US units; serial eligibility must be checked on Anker's recall page."
     },
     {
       "id": "anker_2025",
@@ -38,73 +42,93 @@
     {
       "id": "cpsc_anker_1263",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Supports serial-check scope. Recall date 12 Jun 2025.",
+      "excerpt": "Only model number A1263 power banks sold in the U.S. with qualifying serial numbers are included in the recall.",
+      "applicability": "US-sold A1263 units with qualifying serials only."
     },
     {
       "id": "cpsc_anker_2024",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Model list matches registry.",
+      "excerpt": "This recall involves Anker Power Banks with model numbers A1642, A1647 and A1652.",
+      "applicability": "US recall of 17 Oct 2024; serial eligibility via Anker."
     },
     {
       "id": "cpsc_iniu",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry serial prefixes. Recall date 5 Dec 2025.",
+      "excerpt": "Only portable power banks with serial numbers 000G21, 000H21, 000I21 and 000L21 are included in this recall.",
+      "applicability": "INIU BI-B41 with the four listed serial prefixes."
     },
     {
       "id": "cpsc_belkin",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry scopes. Recall date 13 Nov 2025.",
+      "excerpt": "Model number “BPB002” ... Serial numbers starting with “35S” are included ... Model number “PB0003” ... All serial numbers are included in this recall.",
+      "applicability": "US recall: BPB002 serials starting 35S; PB0003 all serials. MMA008 is a charging stand, not tracked."
     },
     {
       "id": "cpsc_newdery",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches all-units scope. Recall date 24 Sep 2026.",
+      "excerpt": "This recall involves NEWDERY power banks with model number ZHX-PB22.",
+      "applicability": "All ZHX-PB22 units sold on Amazon.com, Mar 2023–Nov 2024."
     },
     {
       "id": "cpsc_casely",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Reannouncement dated 16 Apr 2026 confirmed.",
+      "excerpt": "The Casely Power Pods 5000mAh portable MagSafe wireless phone charger has model number E33A",
+      "applicability": "E33A units sold Mar 2022–Sep 2024 online."
     },
     {
       "id": "cpsc_charmast",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Seller-channel scope matches title. Recall date 19 Dec 2024.",
+      "excerpt": "This recall involves Charmast power banks, model W1056.",
+      "applicability": "W1056 sold by Charmast exclusively on Amazon.com (US)."
     },
     {
       "id": "cpsc_poppy",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches all-units scope. Recall date 3 Sep 2026.",
+      "excerpt": "This recall involves XO Poppy Power Trip Magnetic Wireless Power Banks with model number PYPBK5M.",
+      "applicability": "PYPBK5M in three colour variants, sold at TJX/Marshalls."
     },
     {
       "id": "cpsc_haiara",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Seller scope confirmed; no-date-code condition taken from notice body. Recall date 29 Oct 2026.",
+      "excerpt": "This recall involves HAIARA power banks, model W5 PRO, sold on Amazon.com by Mitrytech.",
+      "applicability": "W5 PRO sold by Mitrytech; date-code condition per notice."
     },
     {
       "id": "xiaomi_recall",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
-      "retrievalSha256": "61018dff3c04d1b964ff99e2542f4f2912ee17593236423ec42ad0d9ea919578"
+      "status": "reviewed",
+      "note": "Matches batch-check scope.",
+      "retrievalSha256": "61018dff3c04d1b964ff99e2542f4f2912ee17593236423ec42ad0d9ea919578",
+      "excerpt": "a small batch of Xiaomi 33W Power Bank 20000mAh (Integrated Cable) (model: PB2030MI) manufactured between August and September 2024",
+      "applicability": "PB2030MI batch Aug–Sep 2024; unit check via Xiaomi form."
     },
     {
       "id": "xiaomi_specs",
@@ -119,39 +143,47 @@
     {
       "id": "safetykorea_pantone",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Page returned only site navigation; recall text and manufacture range remain unreviewed. Airline notices citing PBP-100 are reviewed separately."
     },
     {
       "id": "nepal_mobikins",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
       "status": "needs-review",
-      "note": "Carrier India-sector notice retrieved; primary DGCA AIC 14/2026 not independently reviewed. Full regulatory applicability remains unresolved.",
-      "retrievalSha256": "aa2959658d8d5b33a8cecaab6e0cbfcf963ac982ab75847b8ebc4090fb512f68"
+      "note": "Carrier notice cites DGCA AIC 14/2026 banning MK-PB-04 to/from/within India in cabin, checked and cargo. Primary DGCA circular still unreviewed.",
+      "retrievalSha256": "aa2959658d8d5b33a8cecaab6e0cbfcf963ac982ab75847b8ebc4090fb512f68",
+      "excerpt": "MOBIKINS MK-PB-04 Power Bank भारतभित्र, भारतबाट वा भारततर्फ ... पूर्ण रुपमा प्रतिबन्धित",
+      "applicability": "Flights within, from or to India."
     },
     {
       "id": "mobikins_news",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
       "status": "needs-review",
-      "note": "Retrieved; supporting rule applicability has not been reviewed.",
-      "retrievalSha256": "e58532f7e5013c23b5f85e155ffdc700c6c8ef6a30a8f9df51594aac8e3bb6ae"
+      "note": "Secondary reporting quotes the 29 Sep 2026 circular; consistent with carrier notices but not a primary source.",
+      "retrievalSha256": "e58532f7e5013c23b5f85e155ffdc700c6c8ef6a30a8f9df51594aac8e3bb6ae",
+      "excerpt": "the travelling public and airlines are hereby advised to ensure that the MOBIKINS-MK-PB-04 power bank is not carried or transported on board the aircraft",
+      "applicability": "Reported as all flights departing and arriving in India."
     },
     {
       "id": "aegean",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "excerpt": "Only 1 power bank per passenger up to 100 Whs. ... Power banks may not be used to charge any personal devices onboard. Charging a power bank using the aircraft's power supply is not permitted.",
+      "applicability": "All Aegean flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "ryanair",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry restricted-use rule.",
+      "excerpt": "Power banks are limited to a maximum of 2 per passenger ... Power banks must not be recharged at any time while onboard ... may be used to charge personal electronic devices, except during taxi, take-off, and landing",
+      "applicability": "All Ryanair flights; 100 Wh maximum, no overhead lockers."
     },
     {
       "id": "emirates",
@@ -167,54 +199,69 @@
     {
       "id": "qatar",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches; device charging from the bank remains unconfirmed.",
+      "excerpt": "Maximum of two power banks permitted per passenger. Power bank capacity ≤100 Watt-hours. ... In-flight charging of power banks is prohibited.",
+      "applicability": "Qatar Airways flights."
     },
     {
       "id": "ba",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
-      "retrievalSha256": "302ab10f62bfead3c080c86a15134c24363a5af5eb0f74f41fec901533c261c2"
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "retrievalSha256": "302ab10f62bfead3c080c86a15134c24363a5af5eb0f74f41fec901533c261c2",
+      "excerpt": "Up to 2 power banks per person. Power banks must display capacity rating information. Aircraft seat power supplies are to be used exclusively for charging personal electronic devices (PEDs), not power banks.",
+      "applicability": "British Airways flights."
     },
     {
       "id": "easyjet",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved page lacks usable policy/recall text in this response. Dynamic content requires further review.",
-      "retrievalSha256": "2275b5c5dd3f0653a6ab33279783d9b2f6264f59e896b394eccb842363f060b2"
+      "status": "reviewed",
+      "note": "Limits match. easyJet states approval is automatic up to 160 Wh; the checker still flags over-100 Wh for confirmation as a precaution.",
+      "retrievalSha256": "2275b5c5dd3f0653a6ab33279783d9b2f6264f59e896b394eccb842363f060b2",
+      "excerpt": "Power banks are accepted ... not exceeding 160Wh ... prohibited from use ... Maximum of two power banks permitted per customer. ... easyJet gives automatic ‘operator approval’ for lithium ion batteries up to 160Wh",
+      "applicability": "easyJet flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "scoot",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "excerpt": "maximum of two power banks per passenger ... must not be used or charged onboard ... between 100Wh and 160Wh require prior airline approval.",
+      "applicability": "Scoot flights from 15 April 2026.",
+      "effectiveFrom": "2026-04-15"
     },
     {
       "id": "indigo",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Passage confirms 160 Wh per device and no use/charging; two-bank count and approval threshold not found in retrieved text.",
+      "excerpt": "Each device must not exceed 160 Wh. ... Must not be used, charged, or recharged during the flight.",
+      "applicability": "IndiGo flights."
     },
     {
       "id": "vietnam",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved; supporting rule applicability has not been reviewed.",
-      "retrievalSha256": "9db7a373264cbe90dbf2e0099e69b66f1978786335ef1532c71dc5cc27043d8d"
+      "status": "reviewed",
+      "note": "Matches recalled-bank prohibition.",
+      "retrievalSha256": "9db7a373264cbe90dbf2e0099e69b66f1978786335ef1532c71dc5cc27043d8d",
+      "excerpt": "power banks recalled due to fire risks are prohibited on Vietnam Airlines flights. ... Affected models include PANTONE PBP-100.",
+      "applicability": "Vietnam Airlines flights; capacity/count policy not covered."
     },
     {
       "id": "airseoul",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches recalled-bank prohibition.",
+      "excerpt": "the carriage of all recalled power banks (both in carry-on and checked baggage) is strictly prohibited",
+      "applicability": "Air Seoul flights; general limits not covered."
     },
     {
       "id": "skyangkor",
@@ -239,9 +286,9 @@
     {
       "id": "airindia_mobikins",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Page returned only a redirect; no Air India passage reviewed."
     },
     {
       "id": "uk_caa",
@@ -257,16 +304,20 @@
     {
       "id": "lufthansa26",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "CORRECTED: power banks limited to 100 Wh; the earlier 100–160 Wh approval path applies to devices, not power banks.",
+      "excerpt": "Power restriction: max. 100 Wh or 2 g LC per power bank. Item restriction: max. 2 power banks per passenger. Charging and using power banks is prohibited.",
+      "applicability": "Lufthansa flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "klm26",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "excerpt": "Power banks count as spare batteries, and you can bring up to 2. ... between 100 Wh and 160 Wh? You'll need to ask for permission first. ... using or charging it on board is also not allowed.",
+      "applicability": "KLM flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "sia26",
@@ -282,74 +333,85 @@
       "id": "qantas26",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved; supporting rule applicability has not been reviewed.",
-      "retrievalSha256": "303eb9ee2459bbf0bf1acb7306abeedc00842f99b932b657b0a45766ff20a847"
+      "status": "reviewed",
+      "note": "Limits match; over-100 Wh approval still unconfirmed.",
+      "retrievalSha256": "303eb9ee2459bbf0bf1acb7306abeedc00842f99b932b657b0a45766ff20a847",
+      "excerpt": "You can carry up to two power banks per person, each not exceeding 160Wh. Power banks cannot be used or charged during the flight",
+      "applicability": "Qantas flights; also bans MK-PB-04 to/from/within India."
     },
     {
       "id": "etihad26",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "excerpt": "Only one power bank is allowed per passenger. The watt-hour (Wh) rating must be 100 Wh or less ... Use of power banks on board is strictly prohibited.",
+      "applicability": "Etihad flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "wizz26",
       "checkedAt": "2026-11-17",
       "httpStatus": 403,
       "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "note": "Second attempt blocked (403). Inherited record retained; verify directly."
     },
     {
       "id": "korean26",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Matches registry.",
+      "excerpt": "2 per person (Over 100 Wh and up to 160 Wh requires airline approval) ... The use and charging of power banks on board are strictly prohibited.",
+      "applicability": "Korean Air flights (all routes operated by this carrier, per retrieved page)."
     },
     {
       "id": "airfrance26",
       "checkedAt": "2026-11-17",
       "httpStatus": null,
       "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "note": "Second attempt failed (DNS). Inherited record retained; verify directly."
     },
     {
       "id": "vueling26",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved page links a power-bank article but the limits were not in the retrieved text."
     },
     {
       "id": "delta26",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
       "status": "needs-review",
-      "note": "Retrieved; supporting rule applicability has not been reviewed.",
+      "note": "Retrieved page lacked a clear power-bank passage in extracted text; record remains unconfirmed.",
       "retrievalSha256": "3e86fb8d85502bd9b192eca97ac3267501eef31abc6d5f511c9cd7f45919edb1"
     },
     {
       "id": "turkish26",
       "checkedAt": "2026-11-17",
-      "httpStatus": null,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "needs-review",
+      "note": "Retrieved page covers PEDs and spare batteries generally; no clear power-bank count/limit passage. Record remains unconfirmed."
     },
     {
       "id": "cpsc_api",
       "checkedAt": "2026-11-17",
-      "httpStatus": 403,
-      "status": "unavailable",
-      "note": "Retrieval blocked or timed out in this audit; inherited record retained and direct verification required."
+      "httpStatus": 200,
+      "status": "reviewed",
+      "note": "Reference page; supports no rule.",
+      "excerpt": "CPSC provides accessibility to recalls via a recall database.",
+      "applicability": "Reference only; CabinVolt does not query it live."
     },
     {
       "id": "hcdata",
       "checkedAt": "2026-11-17",
       "httpStatus": 200,
-      "status": "needs-review",
-      "note": "Retrieved; supporting rule applicability has not been reviewed.",
-      "retrievalSha256": "3157e59b63cdb236b240ba7eb04af220f1964a345f7f5709930564fcd85211a0"
+      "status": "reviewed",
+      "note": "Reference page; supports no rule.",
+      "retrievalSha256": "3157e59b63cdb236b240ba7eb04af220f1964a345f7f5709930564fcd85211a0",
+      "excerpt": "Find recalls, advisories and safety alerts",
+      "applicability": "Reference search portal only; supports no rule."
     }
-  ]
+  ],
+  "secondPass": "2026-11-17"
 }

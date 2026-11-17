@@ -836,14 +836,14 @@
       "short": "Lufthansa",
       "iata": "LH",
       "limit": 2,
-      "maxWh": 160,
+      "maxWh": 100,
       "maxExclusive": false,
-      "large": "approval",
+      "large": "no",
       "use": "no",
       "recharge": "no",
       "coverage": "full",
       "source": "lufthansa26",
-      "note": "Up to two power banks. Up to 100 Wh normally; over 100 to 160 Wh requires airline approval. No use or charging on board; keep accessible.",
+      "note": "Up to two power banks, each at most 100 Wh. No use or charging on board except approved medical devices; not in overhead lockers.",
       "noteEl": "Έως δύο power banks. Μέχρι 100 Wh κανονικά· πάνω από 100 έως 160 Wh απαιτείται έγκριση. Απαγορεύεται χρήση ή φόρτιση εν πτήσει."
     },
     {
