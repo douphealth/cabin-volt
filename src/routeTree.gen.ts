@@ -13,6 +13,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as CalculatorRouteImport } from './routes/calculator'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as MethodologyRouteImport } from './routes/methodology'
+import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SourcesRouteImport } from './routes/sources'
 import { Route as AirlinesIndexRouteImport } from './routes/airlines.index'
@@ -38,6 +39,11 @@ const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
 const MethodologyRoute = MethodologyRouteImport.update({
   id: '/methodology',
   path: '/methodology',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PrivacyRoute = PrivacyRouteImport.update({
+  id: '/privacy',
+  path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
@@ -76,6 +82,7 @@ export interface FileRoutesByFullPath {
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
   '/airlines/$id': typeof AirlinesIdRoute
@@ -88,6 +95,7 @@ export interface FileRoutesByTo {
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
   '/airlines/$id': typeof AirlinesIdRoute
@@ -101,6 +109,7 @@ export interface FileRoutesById {
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
   '/airlines/$id': typeof AirlinesIdRoute
@@ -115,6 +124,7 @@ export interface FileRouteTypes {
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/privacy'
     | '/sitemap.xml'
     | '/sources'
     | '/airlines/$id'
@@ -127,6 +137,7 @@ export interface FileRouteTypes {
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/privacy'
     | '/sitemap.xml'
     | '/sources'
     | '/airlines/$id'
@@ -139,6 +150,7 @@ export interface FileRouteTypes {
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/privacy'
     | '/sitemap.xml'
     | '/sources'
     | '/airlines/$id'
@@ -152,6 +164,7 @@ export interface RootRouteChildren {
   CalculatorRoute: typeof CalculatorRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
   MethodologyRoute: typeof MethodologyRoute
+  PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SourcesRoute: typeof SourcesRoute
   AirlinesIdRoute: typeof AirlinesIdRoute
@@ -188,6 +201,13 @@ declare module '@tanstack/react-router' {
       path: '/methodology'
       fullPath: '/methodology'
       preLoaderRoute: typeof MethodologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/privacy': {
+      id: '/privacy'
+      path: '/privacy'
+      fullPath: '/privacy'
+      preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/sitemap.xml': {
@@ -240,6 +260,7 @@ const rootRouteChildren: RootRouteChildren = {
   CalculatorRoute: CalculatorRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
   MethodologyRoute: MethodologyRoute,
+  PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SourcesRoute: SourcesRoute,
   AirlinesIdRoute: AirlinesIdRoute,

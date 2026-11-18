@@ -3,7 +3,8 @@ import { REG, yesNo } from "@/lib/registry";
 import { PageHead } from "@/components/Shell";
 import { Faq, Block } from "@/components/Faq";
 import { airlineAnswer, airlineFaq, airlineStats, peers, CAPACITIES, mahToWh, whVerdict, verdictClass, verified } from "@/lib/content";
-import { OfferSlot } from "@/components/OfferSlot";
+import { AmazonPicks } from "@/components/AmazonPicks";
+import { POWER_BANK_PICKS } from "@/lib/picks";
 
 export const Route = createFileRoute("/airlines/$id")({
   loader: ({ params }) => { const a = REG.airlines.find((x) => x.id === params.id); if (!a) throw notFound(); return a; },
@@ -53,7 +54,7 @@ function Page() {
       <Block title="Before you fly: a 4-step check">
         <ol className="list-decimal pl-5 space-y-2"><li>Find the Wh rating on the power bank label (or convert from mAh).</li><li>Confirm it is within {a.short}'s limit and you are within the per-passenger count.</li><li>Check the model is not on a recall list with the <Link to="/" className="text-primary">CabinVolt checker</Link>.</li><li>Pack it in your carry-on, terminals covered, never in checked baggage.</li></ol>
       </Block>
-      <OfferSlot id="travel-power-bank" context={a.short} />
+      <AmazonPicks title={verified(a) ? `Power banks that fit ${a.short}'s cabin rules` : "Power banks under the common 100 Wh limit"} intro="Every option below is under 100 Wh. Always confirm the Wh printed on the exact unit you buy." picks={POWER_BANK_PICKS} />
       <Faq items={airlineFaq(a)} />
     </>
   );

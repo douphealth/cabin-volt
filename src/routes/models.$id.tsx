@@ -2,6 +2,8 @@ import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { REG, scopeLabel } from "@/lib/registry";
 import { PageHead } from "@/components/Shell";
 import { Faq, Block } from "@/components/Faq";
+import { AmazonPicks } from "@/components/AmazonPicks";
+import { POWER_BANK_PICKS } from "@/lib/picks";
 import { modelAnswer, modelSteps, modelFaq } from "@/lib/content";
 
 export const Route = createFileRoute("/models/$id")({
@@ -50,6 +52,7 @@ function Page() {
             <tbody>{other.map((x) => <tr key={x.id} className="border-t"><td className="p-3 font-mono"><Link to="/models/$id" params={{ id: x.id }} className="hover:text-primary">{x.brand} {x.model}</Link></td><td className="p-3">{x.name}</td><td className="p-3">{scopeLabel(x.scope)}</td><td className="p-3 font-mono">{x.date}</td></tr>)}</tbody></table></div>
           <p><Link to="/models" className="text-primary">All {REG.models.length} tracked models →</Link></p>
         </Block>); })()}
+      <AmazonPicks title="Looking for a replacement power bank?" intro="If your unit is affected, these sizes all stay under the common 100 Wh cabin limit. Check any new model against recall lists too." picks={POWER_BANK_PICKS} />
       <Faq items={modelFaq(m)} />
     </>
   );

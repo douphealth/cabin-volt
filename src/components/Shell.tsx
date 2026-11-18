@@ -44,7 +44,8 @@ export function Shell({ children }: { children: ReactNode }) {
           <div className="flex flex-col gap-1 md:items-end font-mono text-xs">
             <span>Dataset snapshot {REG.provenance.snapshotAsOf}</span>
             <span>{REG.models.length} models · {REG.airlines.length} airlines · {Object.keys(REG.sources).length} sources</span>
-            <Link to="/methodology" className="text-primary hover:underline">Evidence & privacy →</Link>
+            <Link to="/methodology" className="text-primary hover:underline">Evidence & methodology →</Link>
+            <Link to="/privacy" className="text-primary hover:underline">Privacy policy →</Link>
           </div>
         </div>
       </footer>
