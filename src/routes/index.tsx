@@ -87,15 +87,15 @@ function Index() {
             </div>
             <div className="grid grid-cols-[1fr_6rem] gap-3">
               <div>
-                <label className="text-sm font-medium">Operating airline</label>
-                <select className={field + " mt-1.5"} value={airlineId} onChange={(e) => setAirlineId(e.target.value)}>
+                <label htmlFor="cv-airline" className="text-sm font-medium">Operating airline</label>
+                <select id="cv-airline" className={field + " mt-1.5"} value={airlineId} onChange={(e) => setAirlineId(e.target.value)}>
                   <option value="">Choose airline…</option>
                   {[...REG.airlines].sort((a, b) => a.name.localeCompare(b.name)).map((a) => <option key={a.id} value={a.id}>{a.name} ({a.iata})</option>)}
                 </select>
               </div>
               <div>
-                <label className="text-sm font-medium">How many</label>
-                <input type="number" min={1} className={field + " mt-1.5"} value={quantity} onChange={(e) => setQuantity(e.target.value)} />
+                <label htmlFor="cv-quantity" className="text-sm font-medium">How many</label>
+                <input id="cv-quantity" type="number" min={1} className={field + " mt-1.5"} value={quantity} onChange={(e) => setQuantity(e.target.value)} />
               </div>
             </div>
             <button type="button" onClick={() => setAdv(!adv)} className="text-sm text-primary hover:underline">{adv ? "− Hide" : "+ Add"} capacity, serial & route</button>
