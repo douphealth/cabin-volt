@@ -1,3 +1,5 @@
+import { AmazonPicks } from "@/components/AmazonPicks";
+import { POWER_BANK_PICKS } from "@/lib/picks";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useMemo, useState } from "react";
 import { evaluateLookup, suggestions } from "@/lib/logic";
@@ -192,6 +194,7 @@ function Index() {
           </div>
         </div>
       </section>
+      <AmazonPicks title="Power banks you can fly with" intro="Every option below is under the common 100 Wh limit. Always confirm the Wh printed on the exact unit you buy." picks={POWER_BANK_PICKS} />
     </>
   );
 }

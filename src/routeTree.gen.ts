@@ -10,9 +10,11 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as R100whPowerBanksRouteImport } from './routes/100wh-power-banks'
 import { Route as CalculatorRouteImport } from './routes/calculator'
 import { Route as LlmsDottxtRouteImport } from './routes/llms[.]txt'
 import { Route as MethodologyRouteImport } from './routes/methodology'
+import { Route as PortableChargerOnPlaneRouteImport } from './routes/portable-charger-on-plane'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
 import { Route as SourcesRouteImport } from './routes/sources'
@@ -24,6 +26,11 @@ import { Route as ModelsIdRouteImport } from './routes/models.$id'
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const R100whPowerBanksRoute = R100whPowerBanksRouteImport.update({
+  id: '/100wh-power-banks',
+  path: '/100wh-power-banks',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CalculatorRoute = CalculatorRouteImport.update({
@@ -39,6 +46,11 @@ const LlmsDottxtRoute = LlmsDottxtRouteImport.update({
 const MethodologyRoute = MethodologyRouteImport.update({
   id: '/methodology',
   path: '/methodology',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PortableChargerOnPlaneRoute = PortableChargerOnPlaneRouteImport.update({
+  id: '/portable-charger-on-plane',
+  path: '/portable-charger-on-plane',
   getParentRoute: () => rootRouteImport,
 } as any)
 const PrivacyRoute = PrivacyRouteImport.update({
@@ -79,9 +91,11 @@ const ModelsIdRoute = ModelsIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/100wh-power-banks': typeof R100whPowerBanksRoute
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/portable-charger-on-plane': typeof PortableChargerOnPlaneRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
@@ -92,9 +106,11 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/100wh-power-banks': typeof R100whPowerBanksRoute
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/portable-charger-on-plane': typeof PortableChargerOnPlaneRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
@@ -106,9 +122,11 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/100wh-power-banks': typeof R100whPowerBanksRoute
   '/calculator': typeof CalculatorRoute
   '/llms.txt': typeof LlmsDottxtRoute
   '/methodology': typeof MethodologyRoute
+  '/portable-charger-on-plane': typeof PortableChargerOnPlaneRoute
   '/privacy': typeof PrivacyRoute
   '/sitemap.xml': typeof SitemapDotxmlRoute
   '/sources': typeof SourcesRoute
@@ -121,9 +139,11 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/100wh-power-banks'
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/portable-charger-on-plane'
     | '/privacy'
     | '/sitemap.xml'
     | '/sources'
@@ -134,9 +154,11 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/100wh-power-banks'
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/portable-charger-on-plane'
     | '/privacy'
     | '/sitemap.xml'
     | '/sources'
@@ -147,9 +169,11 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/100wh-power-banks'
     | '/calculator'
     | '/llms.txt'
     | '/methodology'
+    | '/portable-charger-on-plane'
     | '/privacy'
     | '/sitemap.xml'
     | '/sources'
@@ -161,9 +185,11 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  R100whPowerBanksRoute: typeof R100whPowerBanksRoute
   CalculatorRoute: typeof CalculatorRoute
   LlmsDottxtRoute: typeof LlmsDottxtRoute
   MethodologyRoute: typeof MethodologyRoute
+  PortableChargerOnPlaneRoute: typeof PortableChargerOnPlaneRoute
   PrivacyRoute: typeof PrivacyRoute
   SitemapDotxmlRoute: typeof SitemapDotxmlRoute
   SourcesRoute: typeof SourcesRoute
@@ -180,6 +206,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/100wh-power-banks': {
+      id: '/100wh-power-banks'
+      path: '/100wh-power-banks'
+      fullPath: '/100wh-power-banks'
+      preLoaderRoute: typeof R100whPowerBanksRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/calculator': {
@@ -201,6 +234,13 @@ declare module '@tanstack/react-router' {
       path: '/methodology'
       fullPath: '/methodology'
       preLoaderRoute: typeof MethodologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/portable-charger-on-plane': {
+      id: '/portable-charger-on-plane'
+      path: '/portable-charger-on-plane'
+      fullPath: '/portable-charger-on-plane'
+      preLoaderRoute: typeof PortableChargerOnPlaneRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/privacy': {
@@ -257,9 +297,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  R100whPowerBanksRoute: R100whPowerBanksRoute,
   CalculatorRoute: CalculatorRoute,
   LlmsDottxtRoute: LlmsDottxtRoute,
   MethodologyRoute: MethodologyRoute,
+  PortableChargerOnPlaneRoute: PortableChargerOnPlaneRoute,
   PrivacyRoute: PrivacyRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
   SourcesRoute: SourcesRoute,

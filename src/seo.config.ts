@@ -24,7 +24,9 @@ export const LLMS_NOTES: string[] = [
 export function seoPages(): SeoPage[] {
   return [
     { path: "/", title: "CabinVolt — Can this power bank fly?", section: "Tools" },
-    { path: "/calculator", title: "Power bank watt-hour (Wh) calculator", section: "Tools" },
+    { path: "/calculator", title: "mAh to Wh converter for power banks", section: "Tools" },
+    { path: "/portable-charger-on-plane", title: "Can you bring a portable charger on a plane?", section: "Flying rules" },
+    { path: "/100wh-power-banks", title: "100Wh power banks: the biggest you can fly with", section: "Flying rules" },
     { path: "/airlines", title: "Airline power bank rules", section: "Airline rules" },
     { path: "/models", title: "Recalled and flagged power bank models", section: "Power bank models" },
     { path: "/methodology", title: "Methodology", section: "About the data" },
