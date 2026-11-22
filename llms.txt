@@ -1,0 +1,29 @@
+# CabinVolt
+> Instant source-backed power bank flight compliance checker for the March 27, 2026 ICAO rule, covering 18 tracked models, 22 airline policy records, and 45 cited sources (Dataset snapshot: 2026-10-30; App release: 2026-11-01).
+
+## Core 2026 Aviation Rules
+- Effective March 27, 2026, ICAO limits passengers to a maximum of 2 power banks per passenger in cabin baggage only (never in checked baggage) and prohibits recharging power banks during flight.
+- Watt-hour (Wh) limits: <= 100 Wh allowed in cabin baggage without approval; 100-160 Wh requires airline approval; > 160 Wh prohibited. Formula: Wh = (mAh * Nominal Voltage) / 1000.
+- Recall-first rule: Any recalled or model-banned power bank is prohibited regardless of Wh rating.
+
+## Stricter Carrier Policies (22 Tracked Airlines)
+- AEGEAN / Olympic Air (A3): Max 1 power bank; onboard use prohibited; enhanced Athens airport checked-baggage screening since 2026-09-08.
+- Emirates (EK): Max 1 power bank; onboard use prohibited.
+- easyJet (U2) & Scoot (TR): Max 2 power banks; onboard use prohibited.
+- Ryanair (FR): Max 2 power banks; permits some onboard device charging outside taxi, takeoff, and landing (recharging power bank still prohibited).
+- Sky Angkor Airlines (ZA) & Air Seoul (RS): Explicitly prohibit recalled PANTONE PBP-100.
+- IndiGo (6E) / India routes: Carrier reporting cites DGCA AIC 14/2026 for MOBIKINS MK-PB-04.
+
+## Featured Tracked Model Notices
+- Anker PowerCore 10000 (A1263): CPSC recall (fire/burn hazard, serial-scoped).
+- Xiaomi 33W Power Bank 20000mAh (PB2030MI): Voluntary recall (Aug-Sep 2024 batches).
+- Belkin BoostCharge 20K (BPB002 / PB0003): CPSC recall (BPB002 serials starting with 35S).
+- HAIARA W5 PRO: CPSC recall (2026-10-29, units without date code sold by Mitrytech).
+- MOBIKINS MK-PB-04: India route restriction notice (2026-10-14).
+- PANTONE PBP-100: Recalled model named by Sky Angkor (2026-10-05) and Air Seoul (2026-10-03).
+- NEWDERY ZHX-PB22: CPSC recall (2026-09-24, explosion/fire hazard).
+
+## Primary Links
+- Live Checker: https://cabinvolt.shop/
+- Repository: https://github.com/douphealth/cabin-volt
+- ICAO Rule: https://www.icao.int/news/new-power-bank-restrictions-will-safeguard-international-aviation
