@@ -36,7 +36,7 @@ function Page() {
         <aside className="panel p-6 h-fit space-y-3">
           <p className="eyebrow">Official sources</p>
           {(m.sources ?? []).map((k) => REG.sources[k] && <a key={k} href={REG.sources[k].url} target="_blank" rel="noreferrer" className="block text-sm hover:text-primary">{REG.sources[k].name} ↗<span className="block font-mono text-[11px] text-muted-foreground">{REG.sources[k].type}{REG.sources[k].date ? ` · ${REG.sources[k].date}` : ""}</span></a>)}
-          <Link to="/" className="inline-block rounded-full bg-primary text-primary-foreground px-5 py-2 font-medium">Run a full check →</Link>
+          <a href="/#check" className="inline-block rounded-full bg-primary text-primary-foreground px-5 py-2 font-medium">Run a full check →</a>
         </aside>
       </section>
       <Block title={`Is it safe to fly with the ${m.brand} ${m.model}?`}>

@@ -64,7 +64,7 @@ function Page() {
       </section>
       <section className="mx-auto max-w-6xl px-5 mt-10">
         <h2 className="font-display text-2xl font-semibold">Check your airline and your model</h2>
-        <p className="mt-2 text-muted-foreground">Rules on in-flight use and how many power banks you may carry vary by airline, and some models have been recalled. <Link to="/airlines" className="text-primary hover:underline">See airline rules →</Link> · <Link to="/models" className="text-primary hover:underline">Check recalled models →</Link> · <Link to="/" className="text-primary hover:underline">Run the full check →</Link></p>
+        <p className="mt-2 text-muted-foreground">Rules on in-flight use and how many power banks you may carry vary by airline, and some models have been recalled. <Link to="/airlines" className="text-primary hover:underline">See airline rules →</Link> · <Link to="/models" className="text-primary hover:underline">Check recalled models →</Link> · <a href="/#check" className="text-primary hover:underline">Run the full check →</a></p>
       </section>
       <Faq items={FAQ} />
       <AmazonPicks title="Power banks you can fly with" intro="Every option below is under 100 Wh. Always confirm the Wh printed on the exact unit you buy." picks={POWER_BANK_PICKS} />

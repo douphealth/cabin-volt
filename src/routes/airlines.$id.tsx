@@ -34,7 +34,7 @@ function Page() {
           {src && <a href={src.url} target="_blank" rel="noreferrer" className="block mt-2 font-medium hover:text-primary">{src.name} ↗</a>}
           {src?.independentlyReviewed && <p className="font-mono text-xs text-muted-foreground mt-2">Reviewed {src.independentlyReviewed}</p>}
           {banned.length > 0 && <><p className="eyebrow mt-6">Named banned models</p><div className="flex flex-wrap gap-2 mt-2">{banned.map((m) => <Link key={m.id} to="/models/$id" params={{ id: m.id }} className="font-mono text-xs border rounded-full px-2.5 py-1 hover:border-danger">{m.model}</Link>)}</div></>}
-          <Link to="/" className="mt-6 inline-block rounded-full bg-primary text-primary-foreground px-5 py-2 font-medium">Check my power bank →</Link>
+          <a href="/#check" className="mt-6 inline-block rounded-full bg-primary text-primary-foreground px-5 py-2 font-medium">Check my power bank →</a>
         </aside>
       </section>
       <Block title={`Can I bring a power bank on ${a.short}?`}>
@@ -52,7 +52,7 @@ function Page() {
         <p><Link to="/airlines" className="text-primary">See all {REG.airlines.length} airlines →</Link></p>
       </Block>
       <Block title="Before you fly: a 4-step check">
-        <ol className="list-decimal pl-5 space-y-2"><li>Find the Wh rating on the power bank label (or convert from mAh).</li><li>Confirm it is within {a.short}'s limit and you are within the per-passenger count.</li><li>Check the model is not on a recall list with the <Link to="/" className="text-primary">CabinVolt checker</Link>.</li><li>Pack it in your carry-on, terminals covered, never in checked baggage.</li></ol>
+        <ol className="list-decimal pl-5 space-y-2"><li>Find the Wh rating on the power bank label (or convert from mAh).</li><li>Confirm it is within {a.short}'s limit and you are within the per-passenger count.</li><li>Check the model is not on a recall list with the <a href="/#check" className="text-primary hover:underline">CabinVolt checker</a>.</li><li>Pack it in your carry-on, terminals covered, never in checked baggage.</li></ol>
       </Block>
       <AmazonPicks title={verified(a) ? `Power banks that fit ${a.short}'s cabin rules` : "Power banks under the common 100 Wh limit"} intro="Every option below is under 100 Wh. Always confirm the Wh printed on the exact unit you buy." picks={POWER_BANK_PICKS} />
       <Faq items={airlineFaq(a)} />
